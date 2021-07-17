@@ -9,7 +9,7 @@ This post takes you briefly through how [Qtile](http://www.qtile.org/), a window
 
 ![Qtile](https://imgur.com/gLUB4GH.png)
 
-### Installing Qtile (on Manjaro or Arch) and Loading my Configuration Files
+## Installing Qtile (on Manjaro or Arch) and Loading my Configuration Files
 
 The first step is to install Qtile:
 
@@ -21,7 +21,7 @@ Qtile will, when it loads, look for a script in '~/.config/qtile/config.py' by d
 - icon folder
 - autostart.sh which autostarts picom (transparency and rounded corners).  You will also need to make sure that this is an executable file, i.e. that it can be run as a program.  This can be done via the command line or GUI method.  The following is the latter:
 
-	- Right-click the file and select Properties. 
+	- Right-click the file and select Properties.
 	- Go to the permissions tab, then tick the box Execute: [ ] Allow this file to run as a program in Thunar.
 
 ![Executable-file](https://imgur.com/MwfSE6G.png)
