@@ -11,13 +11,13 @@ tags: linux
 
 Most of my keyboard shortcuts are the default from 'sxhkd'.  However, there are a few additions which have made navigation much easier for me.
 
-### Rotate an application around the current desktop
+## Rotate an application around the current desktop
     super + shift + {p,o}
       bspc node @/ -C {forward,backward}
 
 The keys 'p' and 'o' can be changed for whatever you prefer - they just work for me!  If you use 'super + shift + p' this will move your windows in a clockwise direction around the desktop.
 
-### Expand/contract a window by moving one of its side outward/inward
+## Expand/contract a window by moving one of its side outward/inward
 There is a command in 'sxhkd' which allows you to expand and contract a window but, for me, it feels cumbersome and counter-intuitive.  The original sxhkd keyboard shortcuts are:
 
       # expand a window by moving one of its side outward
@@ -35,7 +35,7 @@ For me a simpler method is as follows:
         bspc node -z $(echo "left -$STEP 0,bottom 0 $STEP,top 0 -$STEP,right $STEP 0" | cut -d',' -f$SELECTION) || \
         bspc node -z $(echo "right -$STEP 0,top 0 $STEP,bottom 0 -$STEP,left $STEP 0" | cut -d',' -f$SELECTION)
 
-### Focus the next/previous desktop in the current monitor
+## Focus the next/previous desktop in the current monitor
 This one took me a while to find but one which I really wanted.  It allows you to rotate through your desktops - in my case I have 5.  The shortcut makes it a breeze to move through them, either backwards or forwards:
 
       super + bracket{left,right}
