@@ -1,14 +1,14 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>software - Tag - dajhub</title>
-        <link>https://dajhub.github.io/blog/tags/software/</link>
+        <link>https://dajhub.co.uk/tags/software/</link>
         <description>software - Tag - dajhub</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 15 Feb 2021 11:53:59 &#43;0000</lastBuildDate><atom:link href="https://dajhub.github.io/blog/tags/software/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 15 Feb 2021 11:53:59 &#43;0000</lastBuildDate><atom:link href="https://dajhub.co.uk/tags/software/" rel="self" type="application/rss+xml" /><item>
     <title>Resizing Images with ImageMagick</title>
-    <link>https://dajhub.github.io/blog/posts/5-imagemagik/2021-02-15-imagemagik/</link>
+    <link>https://dajhub.co.uk/posts/5-imagemagik/2021-02-15-imagemagik/</link>
     <pubDate>Mon, 15 Feb 2021 11:53:59 &#43;0000</pubDate>
     <author>dajhub</author>
-    <guid>https://dajhub.github.io/blog/posts/5-imagemagik/2021-02-15-imagemagik/</guid>
+    <guid>https://dajhub.co.uk/posts/5-imagemagik/2021-02-15-imagemagik/</guid>
     <description><![CDATA[ImageMagick is free and open-source software which allows you to use the command line to convert and modify images in many formats including GIF, JPEG, and PNG. Using the terminal to manipulate images is, on the whole, straightforward and can save a lot of time.
 In Fedora you will first need to install ImageMagick:
 $ sudo dnf install ImageMagick In Ubuntu the commands are:
@@ -16,10 +16,10 @@ $ sudo apt update $ sudo apt upgrade $ sudo apt install imagemagick In Arch:]]><
 </item>
 <item>
     <title>Peek in Fedora</title>
-    <link>https://dajhub.github.io/blog/posts/3-peek-in-fedora/3-peek-in-fedora/</link>
+    <link>https://dajhub.co.uk/posts/3-peek-in-fedora/3-peek-in-fedora/</link>
     <pubDate>Thu, 21 Jan 2021 10:53:59 &#43;0000</pubDate>
     <author>dajhub</author>
-    <guid>https://dajhub.github.io/blog/posts/3-peek-in-fedora/3-peek-in-fedora/</guid>
+    <guid>https://dajhub.co.uk/posts/3-peek-in-fedora/3-peek-in-fedora/</guid>
     <description><![CDATA[Peek is an open source screen recorder for producing gif&rsquo;s. It has an easy to use interface. Once installed you open the app, position the see through frame over the part of the screen you want to record, and then press the record button&hellip;an example&hellip;
 When you have finished recording you press &lsquo;stop&rsquo; and finally give the .gif file a name.
 The current Peek version:

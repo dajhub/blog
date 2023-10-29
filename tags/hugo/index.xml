@@ -1,14 +1,14 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>hugo - Tag - dajhub</title>
-        <link>https://dajhub.github.io/blog/tags/hugo/</link>
+        <link>https://dajhub.co.uk/tags/hugo/</link>
         <description>hugo - Tag - dajhub</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 30 Dec 2020 11:53:59 &#43;0000</lastBuildDate><atom:link href="https://dajhub.github.io/blog/tags/hugo/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 30 Dec 2020 11:53:59 &#43;0000</lastBuildDate><atom:link href="https://dajhub.co.uk/tags/hugo/" rel="self" type="application/rss+xml" /><item>
     <title>Re-establishing the link between Hugo and Github</title>
-    <link>https://dajhub.github.io/blog/posts/2-re-establishing-the-link-between-hugo-and-github.md/2-re-establishing-the-link-between-hugo-and-github/</link>
+    <link>https://dajhub.co.uk/posts/2-re-establishing-the-link-between-hugo-and-github.md/2-re-establishing-the-link-between-hugo-and-github/</link>
     <pubDate>Wed, 30 Dec 2020 11:53:59 &#43;0000</pubDate>
     <author>dajhub</author>
-    <guid>https://dajhub.github.io/blog/posts/2-re-establishing-the-link-between-hugo-and-github.md/2-re-establishing-the-link-between-hugo-and-github/</guid>
+    <guid>https://dajhub.co.uk/posts/2-re-establishing-the-link-between-hugo-and-github.md/2-re-establishing-the-link-between-hugo-and-github/</guid>
     <description><![CDATA[This post assumes you have already built a site using Hugo, that you have a local version of your site and are pushing changes to Github where it is being hosted. I am fairly new to GitHub so when changing computers I was a little uncertain on how to re-establish the link with GitHub. The following are the steps I went through.
 Background Here is some additional information on my set-up.]]></description>
 </item>

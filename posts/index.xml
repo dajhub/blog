@@ -1,14 +1,14 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>All Posts - dajhub</title>
-        <link>https://dajhub.github.io/blog/posts/</link>
+        <link>https://dajhub.co.uk/posts/</link>
         <description>All Posts | dajhub</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Fri, 22 Sep 2023 08:30:00 &#43;0000</lastBuildDate><atom:link href="https://dajhub.github.io/blog/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Fri, 22 Sep 2023 08:30:00 &#43;0000</lastBuildDate><atom:link href="https://dajhub.co.uk/posts/" rel="self" type="application/rss+xml" /><item>
     <title>i3 Window Manager - Spiral Tiling</title>
-    <link>https://dajhub.github.io/blog/posts/14-tiling/14-tiling/</link>
+    <link>https://dajhub.co.uk/posts/14-tiling/14-tiling/</link>
     <pubDate>Fri, 22 Sep 2023 08:30:00 &#43;0000</pubDate>
     <author>dajhub</author>
-    <guid>https://dajhub.github.io/blog/posts/14-tiling/14-tiling/</guid>
+    <guid>https://dajhub.co.uk/posts/14-tiling/14-tiling/</guid>
     <description><![CDATA[i3 is a tiling window manager which automatically places your windows to make the best use of the space available on your screen.
 The default tiling for i3 looks like:
 My prefered tiling is a spiral layout as shown below.
@@ -16,85 +16,85 @@ To achieve this spiral tiling, Piotr Miller has created a fantastic script which
 </item>
 <item>
     <title>Debian - Help, I’m not in the sudoers file!!</title>
-    <link>https://dajhub.github.io/blog/posts/13-help-im-not-in-the-sudoers-file/2023-09-16-help-im-not-in-the-sudoers-file/</link>
+    <link>https://dajhub.co.uk/posts/13-help-im-not-in-the-sudoers-file/2023-09-16-help-im-not-in-the-sudoers-file/</link>
     <pubDate>Sat, 16 Sep 2023 08:58:59 &#43;0000</pubDate>
     <author>dajhub</author>
-    <guid>https://dajhub.github.io/blog/posts/13-help-im-not-in-the-sudoers-file/2023-09-16-help-im-not-in-the-sudoers-file/</guid>
+    <guid>https://dajhub.co.uk/posts/13-help-im-not-in-the-sudoers-file/2023-09-16-help-im-not-in-the-sudoers-file/</guid>
     <description><![CDATA[It may be that having installed a new Debian desktop (in my case XFCE4) and you try to update (i.e. &ldquo;$ sudo apt update &amp;&amp; sudo apt upgrade&rdquo;) you end up with the following error message:
 The message is just a warning on your local machine. It shows that you attempted to gain root access and were not an authorised user. To add yourself to the sudoers file you will firstly need, through your terminal, to login as root, i.]]></description>
 </item>
 <item>
     <title>Fedora Xfce | A minimal install</title>
-    <link>https://dajhub.github.io/blog/posts/12-fedora-xfce-a-minimal-install/2022-07-25-fedora-xfce-a-minimal-install/</link>
+    <link>https://dajhub.co.uk/posts/12-fedora-xfce-a-minimal-install/2022-07-25-fedora-xfce-a-minimal-install/</link>
     <pubDate>Mon, 25 Jul 2022 08:58:59 &#43;0000</pubDate>
     <author>dajhub</author>
-    <guid>https://dajhub.github.io/blog/posts/12-fedora-xfce-a-minimal-install/2022-07-25-fedora-xfce-a-minimal-install/</guid>
+    <guid>https://dajhub.co.uk/posts/12-fedora-xfce-a-minimal-install/2022-07-25-fedora-xfce-a-minimal-install/</guid>
     <description><![CDATA[Fedora already offers a full Xfce desktop , which is not themed but does include a lot of applications. The aim of this post is to look at how to do a minimal install of the desktop using Fedora&rsquo;s Alternative downloads . On the &lsquo;Alt Downloads&rsquo; page of Fedora, scroll down to &ldquo;Everthing&rdquo; and then download the iso&hellip;
 The installer will take you through all the installation stages. Crucially, when you get to the page shown below opt for the minimal install.]]></description>
 </item>
 <item>
     <title>Changing Display Manager from LightDM to Slick Greeter</title>
-    <link>https://dajhub.github.io/blog/posts/11-changing-display-manager/2022-04-16-changing-display-manager/</link>
+    <link>https://dajhub.co.uk/posts/11-changing-display-manager/2022-04-16-changing-display-manager/</link>
     <pubDate>Sat, 16 Apr 2022 09:58:59 &#43;0000</pubDate>
     <author>dajhub</author>
-    <guid>https://dajhub.github.io/blog/posts/11-changing-display-manager/2022-04-16-changing-display-manager/</guid>
+    <guid>https://dajhub.co.uk/posts/11-changing-display-manager/2022-04-16-changing-display-manager/</guid>
     <description><![CDATA[Display managers provide you with a graphical login for your Linux distrbution. Below is an example of the LightDM display manager which is on my current Arch install:
 An alternative display manager is slick-greeter which uses LightDM but is Linux Mint’s Cinnamon desktop own version. There are some, including me, that believe it is a more attractive display manager than the default LightDM display manager.
 To install slick-greeter on Arch via your terminal:]]></description>
 </item>
 <item>
     <title>Changing Header Colors in Jekyll&#39;s Minima Theme</title>
-    <link>https://dajhub.github.io/blog/posts/10-changing-header-colors/2021-07-23-changing-header-colors-in-jekylls-minima-theme/</link>
+    <link>https://dajhub.co.uk/posts/10-changing-header-colors/2021-07-23-changing-header-colors-in-jekylls-minima-theme/</link>
     <pubDate>Fri, 30 Jul 2021 09:58:59 &#43;0000</pubDate>
     <author>dajhub</author>
-    <guid>https://dajhub.github.io/blog/posts/10-changing-header-colors/2021-07-23-changing-header-colors-in-jekylls-minima-theme/</guid>
+    <guid>https://dajhub.co.uk/posts/10-changing-header-colors/2021-07-23-changing-header-colors-in-jekylls-minima-theme/</guid>
     <description><![CDATA[Jekyll supports a range of themes and while I have tried a few I decided to use Jekyll&rsquo;s default Jekyll theme, &lsquo;Minima&rsquo;, which this site is based on. It works well out of the box. However, over time I have made a few changes.
 The most recent change was with the sites sub-headings. I had been using H2 headings in markdown but always felt they were too large. If I used H3 headings then sub-headings seemed to get lost in the text!]]></description>
 </item>
 <item>
     <title>Useful bspwm Shorcuts</title>
-    <link>https://dajhub.github.io/blog/posts/9-bspwm-shortcuts/2021-07-23-bspwm-shortcuts/</link>
+    <link>https://dajhub.co.uk/posts/9-bspwm-shortcuts/2021-07-23-bspwm-shortcuts/</link>
     <pubDate>Sat, 17 Jul 2021 09:53:59 &#43;0000</pubDate>
     <author>dajhub</author>
-    <guid>https://dajhub.github.io/blog/posts/9-bspwm-shortcuts/2021-07-23-bspwm-shortcuts/</guid>
+    <guid>https://dajhub.co.uk/posts/9-bspwm-shortcuts/2021-07-23-bspwm-shortcuts/</guid>
     <description><![CDATA[bspwm is a tiling window manager along the lines of qtile and i3 . The window manager, bspwm, does not handle any keyboard inputs and a third party program, sxhkd , is needed in order to translate keyboard events to navigate around bspwm.
 Most of my keyboard shortcuts are the default from &lsquo;sxhkd&rsquo;. However, there are a few additions which have made navigation much easier for me.
 1. Rotate an application around the current desktop super + shift + {p,o} bspc node @/ -C {forward,backward} The keys &lsquo;p&rsquo; and &lsquo;o&rsquo; can be changed for whatever you prefer - they just work for me!]]></description>
 </item>
 <item>
     <title>Qtile in Manjaro</title>
-    <link>https://dajhub.github.io/blog/posts/8-qtile-in-manjaro/2021-07-03-qtile-in-manjaro/</link>
+    <link>https://dajhub.co.uk/posts/8-qtile-in-manjaro/2021-07-03-qtile-in-manjaro/</link>
     <pubDate>Sat, 03 Jul 2021 09:53:59 &#43;0000</pubDate>
     <author>dajhub</author>
-    <guid>https://dajhub.github.io/blog/posts/8-qtile-in-manjaro/2021-07-03-qtile-in-manjaro/</guid>
+    <guid>https://dajhub.co.uk/posts/8-qtile-in-manjaro/2021-07-03-qtile-in-manjaro/</guid>
     <description><![CDATA[This post takes you briefly through how Qtile , a window manager, can be installed on Manjaro. Qtile is based on Python. The instructions assume that XFCE4 is already installed. In my case I have Manjaro XFCE .
 Installing Qtile (on Manjaro or Arch) and Loading my Configuration Files The first step is to install Qtile:
 $ sudo pacman -S qtile Qtile will, when it loads, look for a script in &lsquo;~/.]]></description>
 </item>
 <item>
     <title>Budgie Desktop in Opensuse</title>
-    <link>https://dajhub.github.io/blog/posts/7-budgie-in-opensuse/2021-04-08-budgie-in-opensuse/</link>
+    <link>https://dajhub.co.uk/posts/7-budgie-in-opensuse/2021-04-08-budgie-in-opensuse/</link>
     <pubDate>Thu, 08 Apr 2021 09:53:59 &#43;0000</pubDate>
     <author>dajhub</author>
-    <guid>https://dajhub.github.io/blog/posts/7-budgie-in-opensuse/2021-04-08-budgie-in-opensuse/</guid>
+    <guid>https://dajhub.co.uk/posts/7-budgie-in-opensuse/2021-04-08-budgie-in-opensuse/</guid>
     <description><![CDATA[Budgie Desktop is the default desktop on the Solus Linux distrubution and is a fantastic desktop. It can also be installed on other operating systems. This post looks at how to install the Budgie desktop on Opensuse Tumbleweed . It assumes that you have downloaded the ISO and installed on a USB using, for example, Etcher .
 Installing Opensuse Tumbleweed The steps to installing Opensuse Tumbleweed from your USB:
 On the first screen select &ldquo;Installation&rdquo;]]></description>
 </item>
 <item>
     <title>Installing Jekyll on Arch</title>
-    <link>https://dajhub.github.io/blog/posts/6-jekyll-in-arch/2021-02-28-jekyll-in-arch/</link>
+    <link>https://dajhub.co.uk/posts/6-jekyll-in-arch/2021-02-28-jekyll-in-arch/</link>
     <pubDate>Sun, 28 Feb 2021 10:53:59 &#43;0000</pubDate>
     <author>dajhub</author>
-    <guid>https://dajhub.github.io/blog/posts/6-jekyll-in-arch/2021-02-28-jekyll-in-arch/</guid>
+    <guid>https://dajhub.co.uk/posts/6-jekyll-in-arch/2021-02-28-jekyll-in-arch/</guid>
     <description><![CDATA[Jekyll is a static open source site generator which I&rsquo;ve used for a while in conjunction with free hosting on GitHub . It&rsquo;s a great combination for hosting a free site/blog. The instructions on the Jekyll site make it easy to install. I&rsquo;ve used the Jekyll instructions to install it on both Fedora and Ubuntu with few problems. However, the set-up was a little more problematic. These are the steps I went through to install Jekyll on Arch:]]></description>
 </item>
 <item>
     <title>Resizing Images with ImageMagick</title>
-    <link>https://dajhub.github.io/blog/posts/5-imagemagik/2021-02-15-imagemagik/</link>
+    <link>https://dajhub.co.uk/posts/5-imagemagik/2021-02-15-imagemagik/</link>
     <pubDate>Mon, 15 Feb 2021 11:53:59 &#43;0000</pubDate>
     <author>dajhub</author>
-    <guid>https://dajhub.github.io/blog/posts/5-imagemagik/2021-02-15-imagemagik/</guid>
+    <guid>https://dajhub.co.uk/posts/5-imagemagik/2021-02-15-imagemagik/</guid>
     <description><![CDATA[ImageMagick is free and open-source software which allows you to use the command line to convert and modify images in many formats including GIF, JPEG, and PNG. Using the terminal to manipulate images is, on the whole, straightforward and can save a lot of time.
 In Fedora you will first need to install ImageMagick:
 $ sudo dnf install ImageMagick In Ubuntu the commands are:

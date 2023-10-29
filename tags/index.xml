@@ -1,86 +1,86 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>Tags - Tag - dajhub</title>
-        <link>https://dajhub.github.io/blog/tags/</link>
+        <link>https://dajhub.co.uk/tags/</link>
         <description>Tags - Tag - dajhub</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Fri, 22 Sep 2023 08:30:00 &#43;0000</lastBuildDate><atom:link href="https://dajhub.github.io/blog/tags/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Fri, 22 Sep 2023 08:30:00 &#43;0000</lastBuildDate><atom:link href="https://dajhub.co.uk/tags/" rel="self" type="application/rss+xml" /><item>
     <title>debian</title>
-    <link>https://dajhub.github.io/blog/tags/debian/</link>
+    <link>https://dajhub.co.uk/tags/debian/</link>
     <pubDate>Fri, 22 Sep 2023 08:30:00 &#43;0000</pubDate>
     <author>dajhub</author>
-    <guid>https://dajhub.github.io/blog/tags/debian/</guid>
+    <guid>https://dajhub.co.uk/tags/debian/</guid>
     <description><![CDATA[]]></description>
 </item>
 <item>
     <title>i3</title>
-    <link>https://dajhub.github.io/blog/tags/i3/</link>
+    <link>https://dajhub.co.uk/tags/i3/</link>
     <pubDate>Fri, 22 Sep 2023 08:30:00 &#43;0000</pubDate>
     <author>dajhub</author>
-    <guid>https://dajhub.github.io/blog/tags/i3/</guid>
+    <guid>https://dajhub.co.uk/tags/i3/</guid>
     <description><![CDATA[]]></description>
 </item>
 <item>
     <title>window manager</title>
-    <link>https://dajhub.github.io/blog/tags/window-manager/</link>
+    <link>https://dajhub.co.uk/tags/window-manager/</link>
     <pubDate>Fri, 22 Sep 2023 08:30:00 &#43;0000</pubDate>
     <author>dajhub</author>
-    <guid>https://dajhub.github.io/blog/tags/window-manager/</guid>
+    <guid>https://dajhub.co.uk/tags/window-manager/</guid>
     <description><![CDATA[]]></description>
 </item>
 <item>
     <title>desktops</title>
-    <link>https://dajhub.github.io/blog/tags/desktops/</link>
+    <link>https://dajhub.co.uk/tags/desktops/</link>
     <pubDate>Mon, 25 Jul 2022 08:58:59 &#43;0000</pubDate>
     <author>dajhub</author>
-    <guid>https://dajhub.github.io/blog/tags/desktops/</guid>
+    <guid>https://dajhub.co.uk/tags/desktops/</guid>
     <description><![CDATA[]]></description>
 </item>
 <item>
     <title>fedora</title>
-    <link>https://dajhub.github.io/blog/tags/fedora/</link>
+    <link>https://dajhub.co.uk/tags/fedora/</link>
     <pubDate>Mon, 25 Jul 2022 08:58:59 &#43;0000</pubDate>
     <author>dajhub</author>
-    <guid>https://dajhub.github.io/blog/tags/fedora/</guid>
+    <guid>https://dajhub.co.uk/tags/fedora/</guid>
     <description><![CDATA[]]></description>
 </item>
 <item>
     <title>xfce</title>
-    <link>https://dajhub.github.io/blog/tags/xfce/</link>
+    <link>https://dajhub.co.uk/tags/xfce/</link>
     <pubDate>Mon, 25 Jul 2022 08:58:59 &#43;0000</pubDate>
     <author>dajhub</author>
-    <guid>https://dajhub.github.io/blog/tags/xfce/</guid>
+    <guid>https://dajhub.co.uk/tags/xfce/</guid>
     <description><![CDATA[]]></description>
 </item>
 <item>
     <title>arch</title>
-    <link>https://dajhub.github.io/blog/tags/arch/</link>
+    <link>https://dajhub.co.uk/tags/arch/</link>
     <pubDate>Sat, 16 Apr 2022 09:58:59 &#43;0000</pubDate>
     <author>dajhub</author>
-    <guid>https://dajhub.github.io/blog/tags/arch/</guid>
+    <guid>https://dajhub.co.uk/tags/arch/</guid>
     <description><![CDATA[]]></description>
 </item>
 <item>
     <title>display manager</title>
-    <link>https://dajhub.github.io/blog/tags/display-manager/</link>
+    <link>https://dajhub.co.uk/tags/display-manager/</link>
     <pubDate>Sat, 16 Apr 2022 09:58:59 &#43;0000</pubDate>
     <author>dajhub</author>
-    <guid>https://dajhub.github.io/blog/tags/display-manager/</guid>
+    <guid>https://dajhub.co.uk/tags/display-manager/</guid>
     <description><![CDATA[]]></description>
 </item>
 <item>
     <title>jekyll</title>
-    <link>https://dajhub.github.io/blog/tags/jekyll/</link>
+    <link>https://dajhub.co.uk/tags/jekyll/</link>
     <pubDate>Fri, 30 Jul 2021 09:58:59 &#43;0000</pubDate>
     <author>dajhub</author>
-    <guid>https://dajhub.github.io/blog/tags/jekyll/</guid>
+    <guid>https://dajhub.co.uk/tags/jekyll/</guid>
     <description><![CDATA[]]></description>
 </item>
 <item>
     <title>Minima theme</title>
-    <link>https://dajhub.github.io/blog/tags/minima-theme/</link>
+    <link>https://dajhub.co.uk/tags/minima-theme/</link>
     <pubDate>Fri, 30 Jul 2021 09:58:59 &#43;0000</pubDate>
     <author>dajhub</author>
-    <guid>https://dajhub.github.io/blog/tags/minima-theme/</guid>
+    <guid>https://dajhub.co.uk/tags/minima-theme/</guid>
     <description><![CDATA[]]></description>
 </item>
 </channel>

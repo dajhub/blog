@@ -1,14 +1,14 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>bspwm - Tag - dajhub</title>
-        <link>https://dajhub.github.io/blog/tags/bspwm/</link>
+        <link>https://dajhub.co.uk/tags/bspwm/</link>
         <description>bspwm - Tag - dajhub</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 17 Jul 2021 09:53:59 &#43;0000</lastBuildDate><atom:link href="https://dajhub.github.io/blog/tags/bspwm/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 17 Jul 2021 09:53:59 &#43;0000</lastBuildDate><atom:link href="https://dajhub.co.uk/tags/bspwm/" rel="self" type="application/rss+xml" /><item>
     <title>Useful bspwm Shorcuts</title>
-    <link>https://dajhub.github.io/blog/posts/9-bspwm-shortcuts/2021-07-23-bspwm-shortcuts/</link>
+    <link>https://dajhub.co.uk/posts/9-bspwm-shortcuts/2021-07-23-bspwm-shortcuts/</link>
     <pubDate>Sat, 17 Jul 2021 09:53:59 &#43;0000</pubDate>
     <author>dajhub</author>
-    <guid>https://dajhub.github.io/blog/posts/9-bspwm-shortcuts/2021-07-23-bspwm-shortcuts/</guid>
+    <guid>https://dajhub.co.uk/posts/9-bspwm-shortcuts/2021-07-23-bspwm-shortcuts/</guid>
     <description><![CDATA[bspwm is a tiling window manager along the lines of qtile and i3 . The window manager, bspwm, does not handle any keyboard inputs and a third party program, sxhkd , is needed in order to translate keyboard events to navigate around bspwm.
 Most of my keyboard shortcuts are the default from &lsquo;sxhkd&rsquo;. However, there are a few additions which have made navigation much easier for me.
 1. Rotate an application around the current desktop super + shift + {p,o} bspc node @/ -C {forward,backward} The keys &lsquo;p&rsquo; and &lsquo;o&rsquo; can be changed for whatever you prefer - they just work for me!]]></description>

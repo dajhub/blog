@@ -1,24 +1,24 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>arch - Tag - dajhub</title>
-        <link>https://dajhub.github.io/blog/tags/arch/</link>
+        <link>https://dajhub.co.uk/tags/arch/</link>
         <description>arch - Tag - dajhub</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 16 Apr 2022 09:58:59 &#43;0000</lastBuildDate><atom:link href="https://dajhub.github.io/blog/tags/arch/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 16 Apr 2022 09:58:59 &#43;0000</lastBuildDate><atom:link href="https://dajhub.co.uk/tags/arch/" rel="self" type="application/rss+xml" /><item>
     <title>Changing Display Manager from LightDM to Slick Greeter</title>
-    <link>https://dajhub.github.io/blog/posts/11-changing-display-manager/2022-04-16-changing-display-manager/</link>
+    <link>https://dajhub.co.uk/posts/11-changing-display-manager/2022-04-16-changing-display-manager/</link>
     <pubDate>Sat, 16 Apr 2022 09:58:59 &#43;0000</pubDate>
     <author>dajhub</author>
-    <guid>https://dajhub.github.io/blog/posts/11-changing-display-manager/2022-04-16-changing-display-manager/</guid>
+    <guid>https://dajhub.co.uk/posts/11-changing-display-manager/2022-04-16-changing-display-manager/</guid>
     <description><![CDATA[Display managers provide you with a graphical login for your Linux distrbution. Below is an example of the LightDM display manager which is on my current Arch install:
 An alternative display manager is slick-greeter which uses LightDM but is Linux Mint’s Cinnamon desktop own version. There are some, including me, that believe it is a more attractive display manager than the default LightDM display manager.
 To install slick-greeter on Arch via your terminal:]]></description>
 </item>
 <item>
     <title>Installing Jekyll on Arch</title>
-    <link>https://dajhub.github.io/blog/posts/6-jekyll-in-arch/2021-02-28-jekyll-in-arch/</link>
+    <link>https://dajhub.co.uk/posts/6-jekyll-in-arch/2021-02-28-jekyll-in-arch/</link>
     <pubDate>Sun, 28 Feb 2021 10:53:59 &#43;0000</pubDate>
     <author>dajhub</author>
-    <guid>https://dajhub.github.io/blog/posts/6-jekyll-in-arch/2021-02-28-jekyll-in-arch/</guid>
+    <guid>https://dajhub.co.uk/posts/6-jekyll-in-arch/2021-02-28-jekyll-in-arch/</guid>
     <description><![CDATA[Jekyll is a static open source site generator which I&rsquo;ve used for a while in conjunction with free hosting on GitHub . It&rsquo;s a great combination for hosting a free site/blog. The instructions on the Jekyll site make it easy to install. I&rsquo;ve used the Jekyll instructions to install it on both Fedora and Ubuntu with few problems. However, the set-up was a little more problematic. These are the steps I went through to install Jekyll on Arch:]]></description>
 </item>
 </channel>

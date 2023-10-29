@@ -1,23 +1,23 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>fedora - Tag - dajhub</title>
-        <link>https://dajhub.github.io/blog/tags/fedora/</link>
+        <link>https://dajhub.co.uk/tags/fedora/</link>
         <description>fedora - Tag - dajhub</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 25 Jul 2022 08:58:59 &#43;0000</lastBuildDate><atom:link href="https://dajhub.github.io/blog/tags/fedora/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 25 Jul 2022 08:58:59 &#43;0000</lastBuildDate><atom:link href="https://dajhub.co.uk/tags/fedora/" rel="self" type="application/rss+xml" /><item>
     <title>Fedora Xfce | A minimal install</title>
-    <link>https://dajhub.github.io/blog/posts/12-fedora-xfce-a-minimal-install/2022-07-25-fedora-xfce-a-minimal-install/</link>
+    <link>https://dajhub.co.uk/posts/12-fedora-xfce-a-minimal-install/2022-07-25-fedora-xfce-a-minimal-install/</link>
     <pubDate>Mon, 25 Jul 2022 08:58:59 &#43;0000</pubDate>
     <author>dajhub</author>
-    <guid>https://dajhub.github.io/blog/posts/12-fedora-xfce-a-minimal-install/2022-07-25-fedora-xfce-a-minimal-install/</guid>
+    <guid>https://dajhub.co.uk/posts/12-fedora-xfce-a-minimal-install/2022-07-25-fedora-xfce-a-minimal-install/</guid>
     <description><![CDATA[Fedora already offers a full Xfce desktop , which is not themed but does include a lot of applications. The aim of this post is to look at how to do a minimal install of the desktop using Fedora&rsquo;s Alternative downloads . On the &lsquo;Alt Downloads&rsquo; page of Fedora, scroll down to &ldquo;Everthing&rdquo; and then download the iso&hellip;
 The installer will take you through all the installation stages. Crucially, when you get to the page shown below opt for the minimal install.]]></description>
 </item>
 <item>
     <title>Peek in Fedora</title>
-    <link>https://dajhub.github.io/blog/posts/3-peek-in-fedora/3-peek-in-fedora/</link>
+    <link>https://dajhub.co.uk/posts/3-peek-in-fedora/3-peek-in-fedora/</link>
     <pubDate>Thu, 21 Jan 2021 10:53:59 &#43;0000</pubDate>
     <author>dajhub</author>
-    <guid>https://dajhub.github.io/blog/posts/3-peek-in-fedora/3-peek-in-fedora/</guid>
+    <guid>https://dajhub.co.uk/posts/3-peek-in-fedora/3-peek-in-fedora/</guid>
     <description><![CDATA[Peek is an open source screen recorder for producing gif&rsquo;s. It has an easy to use interface. Once installed you open the app, position the see through frame over the part of the screen you want to record, and then press the record button&hellip;an example&hellip;
 When you have finished recording you press &lsquo;stop&rsquo; and finally give the .gif file a name.
 The current Peek version:

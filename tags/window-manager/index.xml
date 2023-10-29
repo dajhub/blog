@@ -1,14 +1,14 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>window manager - Tag - dajhub</title>
-        <link>https://dajhub.github.io/blog/tags/window-manager/</link>
+        <link>https://dajhub.co.uk/tags/window-manager/</link>
         <description>window manager - Tag - dajhub</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Fri, 22 Sep 2023 08:30:00 &#43;0000</lastBuildDate><atom:link href="https://dajhub.github.io/blog/tags/window-manager/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Fri, 22 Sep 2023 08:30:00 &#43;0000</lastBuildDate><atom:link href="https://dajhub.co.uk/tags/window-manager/" rel="self" type="application/rss+xml" /><item>
     <title>i3 Window Manager - Spiral Tiling</title>
-    <link>https://dajhub.github.io/blog/posts/14-tiling/14-tiling/</link>
+    <link>https://dajhub.co.uk/posts/14-tiling/14-tiling/</link>
     <pubDate>Fri, 22 Sep 2023 08:30:00 &#43;0000</pubDate>
     <author>dajhub</author>
-    <guid>https://dajhub.github.io/blog/posts/14-tiling/14-tiling/</guid>
+    <guid>https://dajhub.co.uk/posts/14-tiling/14-tiling/</guid>
     <description><![CDATA[i3 is a tiling window manager which automatically places your windows to make the best use of the space available on your screen.
 The default tiling for i3 looks like:
 My prefered tiling is a spiral layout as shown below.
@@ -16,20 +16,20 @@ To achieve this spiral tiling, Piotr Miller has created a fantastic script which
 </item>
 <item>
     <title>Useful bspwm Shorcuts</title>
-    <link>https://dajhub.github.io/blog/posts/9-bspwm-shortcuts/2021-07-23-bspwm-shortcuts/</link>
+    <link>https://dajhub.co.uk/posts/9-bspwm-shortcuts/2021-07-23-bspwm-shortcuts/</link>
     <pubDate>Sat, 17 Jul 2021 09:53:59 &#43;0000</pubDate>
     <author>dajhub</author>
-    <guid>https://dajhub.github.io/blog/posts/9-bspwm-shortcuts/2021-07-23-bspwm-shortcuts/</guid>
+    <guid>https://dajhub.co.uk/posts/9-bspwm-shortcuts/2021-07-23-bspwm-shortcuts/</guid>
     <description><![CDATA[bspwm is a tiling window manager along the lines of qtile and i3 . The window manager, bspwm, does not handle any keyboard inputs and a third party program, sxhkd , is needed in order to translate keyboard events to navigate around bspwm.
 Most of my keyboard shortcuts are the default from &lsquo;sxhkd&rsquo;. However, there are a few additions which have made navigation much easier for me.
 1. Rotate an application around the current desktop super + shift + {p,o} bspc node @/ -C {forward,backward} The keys &lsquo;p&rsquo; and &lsquo;o&rsquo; can be changed for whatever you prefer - they just work for me!]]></description>
 </item>
 <item>
     <title>Qtile in Manjaro</title>
-    <link>https://dajhub.github.io/blog/posts/8-qtile-in-manjaro/2021-07-03-qtile-in-manjaro/</link>
+    <link>https://dajhub.co.uk/posts/8-qtile-in-manjaro/2021-07-03-qtile-in-manjaro/</link>
     <pubDate>Sat, 03 Jul 2021 09:53:59 &#43;0000</pubDate>
     <author>dajhub</author>
-    <guid>https://dajhub.github.io/blog/posts/8-qtile-in-manjaro/2021-07-03-qtile-in-manjaro/</guid>
+    <guid>https://dajhub.co.uk/posts/8-qtile-in-manjaro/2021-07-03-qtile-in-manjaro/</guid>
     <description><![CDATA[This post takes you briefly through how Qtile , a window manager, can be installed on Manjaro. Qtile is based on Python. The instructions assume that XFCE4 is already installed. In my case I have Manjaro XFCE .
 Installing Qtile (on Manjaro or Arch) and Loading my Configuration Files The first step is to install Qtile:
 $ sudo pacman -S qtile Qtile will, when it loads, look for a script in &lsquo;~/.]]></description>

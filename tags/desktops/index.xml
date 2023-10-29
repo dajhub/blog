@@ -1,23 +1,23 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>desktops - Tag - dajhub</title>
-        <link>https://dajhub.github.io/blog/tags/desktops/</link>
+        <link>https://dajhub.co.uk/tags/desktops/</link>
         <description>desktops - Tag - dajhub</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 25 Jul 2022 08:58:59 &#43;0000</lastBuildDate><atom:link href="https://dajhub.github.io/blog/tags/desktops/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 25 Jul 2022 08:58:59 &#43;0000</lastBuildDate><atom:link href="https://dajhub.co.uk/tags/desktops/" rel="self" type="application/rss+xml" /><item>
     <title>Fedora Xfce | A minimal install</title>
-    <link>https://dajhub.github.io/blog/posts/12-fedora-xfce-a-minimal-install/2022-07-25-fedora-xfce-a-minimal-install/</link>
+    <link>https://dajhub.co.uk/posts/12-fedora-xfce-a-minimal-install/2022-07-25-fedora-xfce-a-minimal-install/</link>
     <pubDate>Mon, 25 Jul 2022 08:58:59 &#43;0000</pubDate>
     <author>dajhub</author>
-    <guid>https://dajhub.github.io/blog/posts/12-fedora-xfce-a-minimal-install/2022-07-25-fedora-xfce-a-minimal-install/</guid>
+    <guid>https://dajhub.co.uk/posts/12-fedora-xfce-a-minimal-install/2022-07-25-fedora-xfce-a-minimal-install/</guid>
     <description><![CDATA[Fedora already offers a full Xfce desktop , which is not themed but does include a lot of applications. The aim of this post is to look at how to do a minimal install of the desktop using Fedora&rsquo;s Alternative downloads . On the &lsquo;Alt Downloads&rsquo; page of Fedora, scroll down to &ldquo;Everthing&rdquo; and then download the iso&hellip;
 The installer will take you through all the installation stages. Crucially, when you get to the page shown below opt for the minimal install.]]></description>
 </item>
 <item>
     <title>Budgie Desktop in Opensuse</title>
-    <link>https://dajhub.github.io/blog/posts/7-budgie-in-opensuse/2021-04-08-budgie-in-opensuse/</link>
+    <link>https://dajhub.co.uk/posts/7-budgie-in-opensuse/2021-04-08-budgie-in-opensuse/</link>
     <pubDate>Thu, 08 Apr 2021 09:53:59 &#43;0000</pubDate>
     <author>dajhub</author>
-    <guid>https://dajhub.github.io/blog/posts/7-budgie-in-opensuse/2021-04-08-budgie-in-opensuse/</guid>
+    <guid>https://dajhub.co.uk/posts/7-budgie-in-opensuse/2021-04-08-budgie-in-opensuse/</guid>
     <description><![CDATA[Budgie Desktop is the default desktop on the Solus Linux distrubution and is a fantastic desktop. It can also be installed on other operating systems. This post looks at how to install the Budgie desktop on Opensuse Tumbleweed . It assumes that you have downloaded the ISO and installed on a USB using, for example, Etcher .
 Installing Opensuse Tumbleweed The steps to installing Opensuse Tumbleweed from your USB:
 On the first screen select &ldquo;Installation&rdquo;]]></description>
