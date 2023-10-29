@@ -1,0 +1,17 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>display manager - Tag - dajhub</title>
+        <link>https://dajhub.github.io/blog/tags/display-manager/</link>
+        <description>display manager - Tag - dajhub</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 16 Apr 2022 09:58:59 &#43;0000</lastBuildDate><atom:link href="https://dajhub.github.io/blog/tags/display-manager/" rel="self" type="application/rss+xml" /><item>
+    <title>Changing Display Manager from LightDM to Slick Greeter</title>
+    <link>https://dajhub.github.io/blog/posts/11-changing-display-manager/2022-04-16-changing-display-manager/</link>
+    <pubDate>Sat, 16 Apr 2022 09:58:59 &#43;0000</pubDate>
+    <author>dajhub</author>
+    <guid>https://dajhub.github.io/blog/posts/11-changing-display-manager/2022-04-16-changing-display-manager/</guid>
+    <description><![CDATA[Display managers provide you with a graphical login for your Linux distrbution. Below is an example of the LightDM display manager which is on my current Arch install:
+An alternative display manager is slick-greeter which uses LightDM but is Linux Mint’s Cinnamon desktop own version. There are some, including me, that believe it is a more attractive display manager than the default LightDM display manager.
+To install slick-greeter on Arch via your terminal:]]></description>
+</item>
+</channel>
+</rss>

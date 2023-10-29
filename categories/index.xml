@@ -1,0 +1,31 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Categories - Category - dajhub</title>
+        <link>https://dajhub.github.io/blog/categories/</link>
+        <description>Categories - Category - dajhub</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Fri, 22 Sep 2023 08:30:00 &#43;0000</lastBuildDate><atom:link href="https://dajhub.github.io/blog/categories/" rel="self" type="application/rss+xml" /><item>
+    <title>LINUX</title>
+    <link>https://dajhub.github.io/blog/categories/linux/</link>
+    <pubDate>Fri, 22 Sep 2023 08:30:00 &#43;0000</pubDate>
+    <author>dajhub</author>
+    <guid>https://dajhub.github.io/blog/categories/linux/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>STATIC SITE GENERATORS</title>
+    <link>https://dajhub.github.io/blog/categories/static-site-generators/</link>
+    <pubDate>Fri, 30 Jul 2021 09:58:59 &#43;0000</pubDate>
+    <author>dajhub</author>
+    <guid>https://dajhub.github.io/blog/categories/static-site-generators/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>ECONOMICS</title>
+    <link>https://dajhub.github.io/blog/categories/economics/</link>
+    <pubDate>Sat, 06 Feb 2021 11:53:59 &#43;0000</pubDate>
+    <author>dajhub</author>
+    <guid>https://dajhub.github.io/blog/categories/economics/</guid>
+    <description><![CDATA[]]></description>
+</item>
+</channel>
+</rss>

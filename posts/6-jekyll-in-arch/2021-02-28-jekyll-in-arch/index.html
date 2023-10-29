@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>Installing Jekyll on Arch - dajhub</title><meta name="Description" content="dajhub"><meta property="og:title" content="Installing Jekyll on Arch" />
+<meta property="og:description" content="Jekyll is a static open source site generator which I&rsquo;ve used for a while in conjunction with free hosting on GitHub . It&rsquo;s a great combination for hosting a free site/blog. The instructions on the Jekyll site make it easy to install. I&rsquo;ve used the Jekyll instructions to install it on both Fedora and Ubuntu with few problems. However, the set-up was a little more problematic. These are the steps I went through to install Jekyll on Arch:" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://dajhub.github.io/blog/posts/6-jekyll-in-arch/2021-02-28-jekyll-in-arch/" /><meta property="og:image" content="https://dajhub.github.io/logo.png"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2021-02-28T10:53:59+00:00" />
+<meta property="article:modified_time" content="2021-02-28T10:53:59+00:00" /><meta property="og:site_name" content="dajhub" />
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://dajhub.github.io/logo.png"/>
+
+<meta name="twitter:title" content="Installing Jekyll on Arch"/>
+<meta name="twitter:description" content="Jekyll is a static open source site generator which I&rsquo;ve used for a while in conjunction with free hosting on GitHub . It&rsquo;s a great combination for hosting a free site/blog. The instructions on the Jekyll site make it easy to install. I&rsquo;ve used the Jekyll instructions to install it on both Fedora and Ubuntu with few problems. However, the set-up was a little more problematic. These are the steps I went through to install Jekyll on Arch:"/>
+<meta name="application-name" content="dajhub">
+<meta name="apple-mobile-web-app-title" content="dajhub"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://dajhub.github.io/blog/posts/6-jekyll-in-arch/2021-02-28-jekyll-in-arch/" /><link rel="prev" href="https://dajhub.github.io/blog/posts/5-imagemagik/2021-02-15-imagemagik/" /><link rel="next" href="https://dajhub.github.io/blog/posts/7-budgie-in-opensuse/2021-04-08-budgie-in-opensuse/" /><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css"><link rel="stylesheet" href="/blog/css/style.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"><meta name="google-site-verification" content="Fa4884Am4K-2p1sLDh1nREN_glxeFtFndBIGQ4ZF1JQ" /><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Installing Jekyll on Arch",
+        "inLanguage": "en",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/dajhub.github.io\/blog\/posts\/6-jekyll-in-arch\/2021-02-28-jekyll-in-arch\/"
+        },"genre": "posts","keywords": "jekyll, arch","wordcount":  309 ,
+        "url": "https:\/\/dajhub.github.io\/blog\/posts\/6-jekyll-in-arch\/2021-02-28-jekyll-in-arch\/","datePublished": "2021-02-28T10:53:59+00:00","dateModified": "2021-02-28T10:53:59+00:00","publisher": {
+            "@type": "Organization",
+            "name": ""},"author": {
+                "@type": "Person",
+                "name": "dajhub"
+            },"description": ""
+    }
+    </script></head>
+    <body data-header-desktop="auto" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/blog/" title="dajhub">dajhub</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/blog/posts/"> Posts </a><a class="menu-item" href="/blog/tags/"> Tags </a><a class="menu-item" href="/blog/categories/"> Categories </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Search">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="Clear">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/blog/" title="dajhub">dajhub</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="Search">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="Clear">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        Cancel
+                    </a>
+                </div><a class="menu-item" href="/blog/posts/" title="">Posts</a><a class="menu-item" href="/blog/tags/" title="">Tags</a><a class="menu-item" href="/blog/categories/" title="">Categories</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a></div>
+    </div>
+</header><div class="search-dropdown desktop">
+        <div id="search-dropdown-desktop"></div>
+    </div>
+    <div class="search-dropdown mobile">
+        <div id="search-dropdown-mobile"></div>
+    </div><main class="main">
+                <div class="container"><article class="page single"><h1 class="single-title animate__animated animate__flipInX">Installing Jekyll on Arch</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="/blog/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>dajhub</a>
+</span>&nbsp;<span class="post-category">included in <a href="/blog/categories/linux/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>LINUX</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2021-02-28">2021-02-28</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;309 words&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;2 minutes&nbsp;</div>
+        </div><div class="content" id="content"><p><a href="https://jekyllrb.com/" target="_blank" rel="noopener noreffer">Jekyll</a>
+ is a static open source site generator which I&rsquo;ve used for a while in conjunction with free hosting on <a href="https://github.com/" target="_blank" rel="noopener noreffer">GitHub</a>
+.  It&rsquo;s a great combination for hosting a free site/blog.  The instructions on the Jekyll site make it easy to install.  I&rsquo;ve used the Jekyll instructions to install it on both Fedora and Ubuntu with few problems.  However, the set-up was a little more problematic.  These are the steps I went through to install Jekyll on Arch:</p>
+<ol>
+<li>
+<p>Install the <a href="https://jekyllrb.com/docs/installation/other-linux/#archlinux" target="_blank" rel="noopener noreffer">Jekyll prerequisites</a>
+ using your terminal:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">$ sudo pacman -S ruby base-devel
+</span></span></code></pre></div></li>
+<li>
+<p>Jekyll requires the installation of <a href="https://learn.cloudcannon.com/jekyll/gemfiles-and-the-bundler/" target="_blank" rel="noopener noreffer">gems</a>
+ .  Still in the terminal you can add environmental variables to your shell script (<code>.bashrc</code>) to set up the gem installation path:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">$ <span class="nb">echo</span> <span class="s1">&#39;# Install Ruby Gems to ~/gems&#39;</span> &gt;&gt; ~/.bashrc
+</span></span><span class="line"><span class="cl">$ <span class="nb">echo</span> <span class="s1">&#39;export GEM_HOME=&#34;$HOME/gems&#34;&#39;</span> &gt;&gt; ~/.bashrc
+</span></span><span class="line"><span class="cl">$ <span class="nb">echo</span> <span class="s1">&#39;export PATH=&#34;$HOME/gems/bin:$PATH&#34;&#39;</span> &gt;&gt; ~/.bashrc
+</span></span><span class="line"><span class="cl">$ <span class="nb">source</span> ~/.bashrc
+</span></span></code></pre></div></li>
+<li>
+<p>Finally, the Jekyll gem&rsquo;s can be installed:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">$ gem install jekyll bundler
+</span></span></code></pre></div></li>
+<li>
+<p>However, at this point, as the Jekyll bundler is being installed an error message pops up:</p>
+<p><img
+        class="lazyload"
+        src="/blog/svg/loading.min.svg"
+        data-src="/posts/6-jekyll-in-arch/jekyll-gem-install-warning.png#center"
+        data-srcset="/posts/6-jekyll-in-arch/jekyll-gem-install-warning.png#center, /posts/6-jekyll-in-arch/jekyll-gem-install-warning.png#center 1.5x, /posts/6-jekyll-in-arch/jekyll-gem-install-warning.png#center 2x"
+        data-sizes="auto"
+        alt="/posts/6-jekyll-in-arch/jekyll-gem-install-warning.png#center"
+        title="Jekyll-gem-install-warning" /></p>
+<p><br>
+If you now try to create a new site with this command:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">$ jekyll new blog
+</span></span></code></pre></div><p>a message appears: <code>bash: jekyll: command not found</code></p>
+</li>
+<li>
+<p>To correct the above:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">$ <span class="nb">export</span> <span class="nv">PATH</span><span class="o">=</span><span class="s2">&#34;/home/david/.local/share/gem/ruby/2.7.0/bin:</span><span class="nv">$PATH</span><span class="s2">&#34;</span>
+</span></span><span class="line"><span class="cl">$ <span class="nv">PATH</span><span class="o">=</span><span class="s2">&#34;</span><span class="nv">$PATH</span><span class="s2">:</span><span class="k">$(</span>ruby -e <span class="s1">&#39;puts Gem.user_dir&#39;</span><span class="k">)</span><span class="s2">/bin&#34;</span>
+</span></span></code></pre></div><p>Obviously you need to change the path in the first command to suite your own setup.</p>
+<p>Run:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">$ jekyll new blog
+</span></span></code></pre></div><p>The new Jekyll folder will be installed and can be found in your home directory:</p>
+<p><img
+        class="lazyload"
+        src="/blog/svg/loading.min.svg"
+        data-src="/posts/6-jekyll-in-arch/jekyll-folder.png#center"
+        data-srcset="/posts/6-jekyll-in-arch/jekyll-folder.png#center, /posts/6-jekyll-in-arch/jekyll-folder.png#center 1.5x, /posts/6-jekyll-in-arch/jekyll-folder.png#center 2x"
+        data-sizes="auto"
+        alt="/posts/6-jekyll-in-arch/jekyll-folder.png#center"
+        title="Jekyll-folder" /></p>
+<p>Having created the Jekyll folder, &lsquo;blog&rsquo;, in your Home directory you can build the default site and check that it works.  In the terminal change the directory to <code>blog</code> (or whatever your blog folder is called) and then build:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">$ <span class="nb">cd</span> blog
+</span></span><span class="line"><span class="cl">$ bundle <span class="nb">exec</span> jekyll serve
+</span></span></code></pre></div><p>In your browser paste the following into the address bar:  <code>http://localhost:4000</code>. You should see the Jekyll minima site.</p>
+<p><img
+        class="lazyload"
+        src="/blog/svg/loading.min.svg"
+        data-src="/posts/6-jekyll-in-arch/jekyll-site.png#center"
+        data-srcset="/posts/6-jekyll-in-arch/jekyll-site.png#center, /posts/6-jekyll-in-arch/jekyll-site.png#center 1.5x, /posts/6-jekyll-in-arch/jekyll-site.png#center 2x"
+        data-sizes="auto"
+        alt="/posts/6-jekyll-in-arch/jekyll-site.png#center"
+        title="Jekyll-site" /></p>
+</li>
+</ol>
+</div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>Updated on 2021-02-28</span>
+            </div></div>
+        <div class="post-info-line">
+            <div class="post-info-md"></div>
+            <div class="post-info-share">
+                <span><a href="javascript:void(0);" title="Share on Twitter" data-sharer="twitter" data-url="https://dajhub.github.io/blog/posts/6-jekyll-in-arch/2021-02-28-jekyll-in-arch/" data-title="Installing Jekyll on Arch" data-hashtags="jekyll,arch"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="https://dajhub.github.io/blog/posts/6-jekyll-in-arch/2021-02-28-jekyll-in-arch/" data-hashtag="jekyll"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Pocket" data-sharer="pocket" data-url="https://dajhub.github.io/blog/posts/6-jekyll-in-arch/2021-02-28-jekyll-in-arch/"><i class="fab fa-get-pocket fa-fw" aria-hidden="true"></i></a></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"><i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/blog/tags/jekyll/">jekyll</a>,&nbsp;<a href="/blog/tags/arch/">arch</a></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/blog/">Home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"><a href="/blog/posts/5-imagemagik/2021-02-15-imagemagik/" class="prev" rel="prev" title="Resizing Images with ImageMagick"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>Resizing Images with ImageMagick</a>
+            <a href="/blog/posts/7-budgie-in-opensuse/2021-04-08-budgie-in-opensuse/" class="next" rel="next" title="Budgie Desktop in Opensuse">Budgie Desktop in Opensuse<i class="fas fa-angle-right fa-fw" aria-hidden="true"></i></a></div>
+</div>
+</article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.110.0">Hugo</a> | Theme - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.2.10"></i> LoveIt</a>
+                </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2020 - 2023</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/blog/" target="_blank">dajhub</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Back to Top">
+                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="View Comments">
+                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
+            </a>
+        </div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.4.0/css/lightgallery-bundle.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/contrib/copy-tex.min.css"><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/autocomplete.js@0.38.1/dist/autocomplete.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lunr@2.3.9/lunr.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.1/lazysizes.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.4.0/lightgallery.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.4.0/plugins/thumbnail/lg-thumbnail.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.4.0/plugins/zoom/lg-zoom.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/sharer.js@0.5.1/sharer.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/contrib/auto-render.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/contrib/copy-tex.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/contrib/mhchem.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":50},"comment":{},"lightgallery":true,"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":true,"left":"\\begin{equation}","right":"\\end{equation}"},{"display":true,"left":"\\begin{equation*}","right":"\\end{equation*}"},{"display":true,"left":"\\begin{align}","right":"\\end{align}"},{"display":true,"left":"\\begin{align*}","right":"\\end{align*}"},{"display":true,"left":"\\begin{alignat}","right":"\\end{alignat}"},{"display":true,"left":"\\begin{alignat*}","right":"\\end{alignat*}"},{"display":true,"left":"\\begin{gather}","right":"\\end{gather}"},{"display":true,"left":"\\begin{CD}","right":"\\end{CD}"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"}],"strict":false},"search":{"highlightTag":"em","maxResultLength":10,"noResultsFound":"No results found","snippetLength":30}};</script><script type="text/javascript" src="/blog/js/theme.min.js"></script></body>
+</html>

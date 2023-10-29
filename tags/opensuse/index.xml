@@ -1,0 +1,17 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>opensuse - Tag - dajhub</title>
+        <link>https://dajhub.github.io/blog/tags/opensuse/</link>
+        <description>opensuse - Tag - dajhub</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Thu, 08 Apr 2021 09:53:59 &#43;0000</lastBuildDate><atom:link href="https://dajhub.github.io/blog/tags/opensuse/" rel="self" type="application/rss+xml" /><item>
+    <title>Budgie Desktop in Opensuse</title>
+    <link>https://dajhub.github.io/blog/posts/7-budgie-in-opensuse/2021-04-08-budgie-in-opensuse/</link>
+    <pubDate>Thu, 08 Apr 2021 09:53:59 &#43;0000</pubDate>
+    <author>dajhub</author>
+    <guid>https://dajhub.github.io/blog/posts/7-budgie-in-opensuse/2021-04-08-budgie-in-opensuse/</guid>
+    <description><![CDATA[Budgie Desktop is the default desktop on the Solus Linux distrubution and is a fantastic desktop. It can also be installed on other operating systems. This post looks at how to install the Budgie desktop on Opensuse Tumbleweed . It assumes that you have downloaded the ISO and installed on a USB using, for example, Etcher .
+Installing Opensuse Tumbleweed The steps to installing Opensuse Tumbleweed from your USB:
+On the first screen select &ldquo;Installation&rdquo;]]></description>
+</item>
+</channel>
+</rss>

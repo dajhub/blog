@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>Game Theory and Oligopolies - dajhub</title><meta name="Description" content="dajhub"><meta property="og:title" content="Game Theory and Oligopolies" />
+<meta property="og:description" content="When examining Oligopolies we often use the kinked demand curve to show how firms might face a dual demand curve (i.e. elastic and inelastic) for its product based on the likely reactions of other firms to a change in its price.  Game Theory can also be used by economists to gain a more detailed understanding of how oligopolies might operate in their market." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://dajhub.github.io/blog/posts/1-game-theory-and-oligopolies/1-game-theory-and-oligopolies/" /><meta property="og:image" content="https://dajhub.github.io/logo.png"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2020-12-20T11:53:59+00:00" />
+<meta property="article:modified_time" content="2020-12-20T11:53:59+00:00" /><meta property="og:site_name" content="dajhub" />
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://dajhub.github.io/logo.png"/>
+
+<meta name="twitter:title" content="Game Theory and Oligopolies"/>
+<meta name="twitter:description" content="When examining Oligopolies we often use the kinked demand curve to show how firms might face a dual demand curve (i.e. elastic and inelastic) for its product based on the likely reactions of other firms to a change in its price.  Game Theory can also be used by economists to gain a more detailed understanding of how oligopolies might operate in their market."/>
+<meta name="application-name" content="dajhub">
+<meta name="apple-mobile-web-app-title" content="dajhub"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://dajhub.github.io/blog/posts/1-game-theory-and-oligopolies/1-game-theory-and-oligopolies/" /><link rel="next" href="https://dajhub.github.io/blog/posts/2-re-establishing-the-link-between-hugo-and-github.md/2-re-establishing-the-link-between-hugo-and-github/" /><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css"><link rel="stylesheet" href="/blog/css/style.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"><meta name="google-site-verification" content="Fa4884Am4K-2p1sLDh1nREN_glxeFtFndBIGQ4ZF1JQ" /><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Game Theory and Oligopolies",
+        "inLanguage": "en",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/dajhub.github.io\/blog\/posts\/1-game-theory-and-oligopolies\/1-game-theory-and-oligopolies\/"
+        },"genre": "posts","keywords": "oligopolies","wordcount":  2078 ,
+        "url": "https:\/\/dajhub.github.io\/blog\/posts\/1-game-theory-and-oligopolies\/1-game-theory-and-oligopolies\/","datePublished": "2020-12-20T11:53:59+00:00","dateModified": "2020-12-20T11:53:59+00:00","publisher": {
+            "@type": "Organization",
+            "name": ""},"author": {
+                "@type": "Person",
+                "name": "dajhub"
+            },"description": ""
+    }
+    </script></head>
+    <body data-header-desktop="auto" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/blog/" title="dajhub">dajhub</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/blog/posts/"> Posts </a><a class="menu-item" href="/blog/tags/"> Tags </a><a class="menu-item" href="/blog/categories/"> Categories </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Search">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="Clear">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/blog/" title="dajhub">dajhub</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="Search">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="Clear">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        Cancel
+                    </a>
+                </div><a class="menu-item" href="/blog/posts/" title="">Posts</a><a class="menu-item" href="/blog/tags/" title="">Tags</a><a class="menu-item" href="/blog/categories/" title="">Categories</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a></div>
+    </div>
+</header><div class="search-dropdown desktop">
+        <div id="search-dropdown-desktop"></div>
+    </div>
+    <div class="search-dropdown mobile">
+        <div id="search-dropdown-mobile"></div>
+    </div><main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">Contents</h2>
+            <div class="toc-content always-active" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">Game Theory and Oligopolies</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="/blog/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>dajhub</a>
+</span>&nbsp;<span class="post-category">included in <a href="/blog/categories/economics/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>ECONOMICS</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2020-12-20">2020-12-20</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;2078 words&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;10 minutes&nbsp;</div>
+        </div><div class="details toc" id="toc-static"  data-kept="">
+                <div class="details-summary toc-title">
+                    <span>Contents</span>
+                    <span><i class="details-icon fas fa-angle-right" aria-hidden="true"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#10-game-theory-and-oligopolies">1.0 Game Theory and Oligopolies</a></li>
+    <li><a href="#20-dominant-strategy">2.0 Dominant Strategy</a>
+      <ul>
+        <li><a href="#21-strictly-dominant-strategy">2.1 Strictly Dominant Strategy</a></li>
+        <li><a href="#22-weakly-dominant-strategy">2.2 Weakly Dominant Strategy</a></li>
+      </ul>
+    </li>
+    <li><a href="#30-nash-equilibrium">3.0 Nash Equilibrium</a>
+      <ul>
+        <li><a href="#31-example-1">3.1 Example 1</a></li>
+        <li><a href="#32-example-2">3.2 Example 2</a></li>
+        <li><a href="#33-example-3">3.3 Example 3</a></li>
+      </ul>
+    </li>
+    <li><a href="#40-final-words">4.0 Final Words</a></li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><p>When examining Oligopolies we often use the kinked demand curve to show how firms might face a dual demand curve (i.e. elastic and inelastic) for its product based on the likely reactions of other firms to a change in its price.  Game Theory can also be used by economists to gain a more detailed understanding of how oligopolies might operate in their market.</p>
+<h2 id="10-game-theory-and-oligopolies">1.0 Game Theory and Oligopolies</h2>
+<p>John Forbes Nash was renowned for his work in game theory, winning the Nobel Prize for Economics in 1994.  The film clip of <strong>A Beautiful Mind</strong> – the bar scene – illustrates the need to think about the response of others where it highlights <strong>interdependence</strong>. Interdependence is vital for understanding oligopoly theory – that firms react to decisions made by other firms.</p>
+<p>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/2d_dtTZQyUM" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+<!-- raw HTML omitted --></p>
+<p>Game Theory is in short, the study of how individuals (or organisations) apply strategy to achieve an outcome which is to their benefit — namely, a pay-off.  One of the criticisms of the kinked demand curve used in Oligopoly theory is that it does not take into account the interdependence between firms.  Game Theory looks at this interdependence in much more detail.  Game Theory considers the strategic interaction when one player&rsquo;s decision depends on what the other player does.  What the opponent does also depends on what s/he thinks the first player will do.</p>
+<p>A game consists of:</p>
+<ol>
+<li>Players</li>
+<li>Strategies</li>
+<li>Payoffs</li>
+</ol>
+<h2 id="20-dominant-strategy">2.0 Dominant Strategy</h2>
+<p>When considering Game Theory one of the first steps is to identify the dominant strategy.</p>
+<div class="details admonition info open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-info-circle fa-fw" aria-hidden="true"></i>Info<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">A <strong>dominant strategy</strong> occurs when there is an optimal choice of strategy for each player no matter what the other does.</div>
+        </div>
+    </div>
+<p>In fact, there are two types of dominance.  A <strong>strictly dominant strategy</strong> is that strategy that always provides greater utility (i.e. satisfaction) to a player, no matter what the other player&rsquo;s strategy is.  A <strong>weakly dominant strategy</strong> is that strategy that provides at least the same utility for all the other player’s strategies, and strictly greater for some strategy.</p>
+<h3 id="21-strictly-dominant-strategy">2.1 Strictly Dominant Strategy</h3>
+<p>Let&rsquo;s consider a dominant strategy, using the <strong>prisoner&rsquo;s dilemma</strong> which is the most famous example of game theory.</p>
+<p>In the matrix below there are two prisoners who have committed a crime together and have been arrested.  Each prisoner knows there is enough evidence to convict them.  However, they have each been offered a deal.  If they confess and implicate their fellow prisoner they will get a reduced sentence but their fellow prisoner will get a more severe sentence.  They cannot collude.  The consequences of confessing or not confessing for Prisoner 1 is shown in green.  For Prisoner 2 the alternatives are shown in red.</p>
+<p><br>
+<figure><a class="lightgallery" href="/posts/1-game-theory-and-oligopolies/prisoner-dilemma.png" title="Prisoners Dilemma" data-thumbnail="/posts/1-game-theory-and-oligopolies/prisoner-dilemma.png" data-sub-html="<h2>Prisoner&#39;s Dilemma</h2><p>Prisoners Dilemma</p>">
+        <img
+            class="lazyload"
+            src="/blog/svg/loading.min.svg"
+            data-src="/posts/1-game-theory-and-oligopolies/prisoner-dilemma.png"
+            data-srcset="/posts/1-game-theory-and-oligopolies/prisoner-dilemma.png, /posts/1-game-theory-and-oligopolies/prisoner-dilemma.png 1.5x, /posts/1-game-theory-and-oligopolies/prisoner-dilemma.png 2x"
+            data-sizes="auto"
+            alt="/posts/1-game-theory-and-oligopolies/prisoner-dilemma.png" />
+    </a><figcaption class="image-caption">Prisoner's Dilemma</figcaption>
+    </figure></p>
+<p>Prisoner 1&rsquo;s perspective:</p>
+<ul>
+<li>If Prisoner 2 confesses, Prisoner 1 should <strong>confess</strong> - 8 years is better than 10 years.</li>
+<li>If Prisoner 2 does not confess, Prisoner 1 should still <strong>confess</strong> - 0 years is better than 1 year.</li>
+</ul>
+<p>Prisoner 1 has a <strong>dominant strategy</strong> to <strong>confess</strong> since no matter what Prisoner 2 does the <em>optimal choice</em> for Prisoner 1 is to confess.</p>
+<p>Prisoner 2&rsquo;s perspective:</p>
+<ul>
+<li>If Prisoner 1 confesses, Prisoner 2 should <strong>confess</strong> - 8 years is better than 10 years.</li>
+<li>If Prisoner 1 does not confess, Prisoner 2 should still confess - 0 years is better than 1 year.</li>
+</ul>
+<p>Prisoner 2 has a <strong>dominant strategy</strong> to <strong>confess</strong> since no matter what Prisoner 1 does the <em>optimal choice</em> for Prisoner 2 is to confess.</p>
+<h3 id="22-weakly-dominant-strategy">2.2 Weakly Dominant Strategy</h3>
+<p>Let&rsquo;s now look at a <strong>weakly dominant strategy</strong>.  For this example we will consider a game show which ran in the UK from 2007 to 2009.  It was called <strong>Golden Balls</strong> and was hosted by Jasper Carrot.  In the final round of the game each contestant is given a set of two balls, one each marked &ldquo;Split&rdquo; and &ldquo;Steal,&rdquo; and must secretly choose one to indicate their intentions after looking inside to confirm which is which.  There is obviously a sum of money involved.</p>
+<ul>
+<li>If both choose Split, they each receive half the jackpot.</li>
+<li>If one chooses Steal and the other chooses Split, the Steal
+contestant wins the entire jackpot and the Split contestant leaves with
+nothing.</li>
+<li>If both choose Steal, neither contestant wins any money.</li>
+</ul>
+<p>If we assume that the jackpot is £2,000 then we can show this in the following matrix:</p>
+<p><br>
+<figure><a class="lightgallery" href="/posts/1-game-theory-and-oligopolies/golden-balls1.png" title="Golden Balls" data-thumbnail="/posts/1-game-theory-and-oligopolies/golden-balls1.png" data-sub-html="<h2>Golden Balls</h2><p>Golden Balls</p>">
+        <img
+            class="lazyload"
+            src="/blog/svg/loading.min.svg"
+            data-src="/posts/1-game-theory-and-oligopolies/golden-balls1.png"
+            data-srcset="/posts/1-game-theory-and-oligopolies/golden-balls1.png, /posts/1-game-theory-and-oligopolies/golden-balls1.png 1.5x, /posts/1-game-theory-and-oligopolies/golden-balls1.png 2x"
+            data-sizes="auto"
+            alt="/posts/1-game-theory-and-oligopolies/golden-balls1.png" />
+    </a><figcaption class="image-caption">Golden Balls</figcaption>
+    </figure></p>
+<p>Player 1&rsquo;s perspective:</p>
+<ul>
+<li>If player 2 plays share, player 1 should play steal.</li>
+<li>If player 2 plays steal, it does not matter what player 1 does. S/he will end up with £0.</li>
+</ul>
+<p>We could say that for player 1 the <strong>weakly dominant strategy it to steal.</strong></p>
+<p>Player 2&rsquo;s perspective:</p>
+<ul>
+<li>If player 1 plays share, player 2 should play steal.</li>
+<li>If player 1 plays steal, it does not matter what player 2 does. S/he will end up with £0.</li>
+</ul>
+<p>Again, we would say that for player 2 the <strong>weakly dominant strategy is to steal.</strong></p>
+<p>We will come back to these two examples when we look at the Nash Equilibrium.</p>
+<h2 id="30-nash-equilibrium">3.0 Nash Equilibrium</h2>
+<p>Nash Equilibrium is an important idea in game theory &hellip;</p>
+<div class="details admonition info open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-info-circle fa-fw" aria-hidden="true"></i>Info<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">A <strong>Nash Equilibrium</strong> describes any situation where all the participants in a game are pursuing their best possible strategy given the strategies of all the other participants.   It is where there is no incentive to deviate from their initial strategy.</div>
+        </div>
+    </div>
+<p>The Nash Equilibrium seems similar to a dominant strategy.  However, with a Nash equilibrium we are looking at each quadrant within the payoff matrix and the looking at the payoff combinations to see if there is an equilibrium which we will naturally gravitate towards.</p>
+<h3 id="31-example-1">3.1 Example 1</h3>
+<p>Consider the Prisoner Dilemma example from above.</p>
+<p><br>
+<figure><a class="lightgallery" href="/posts/1-game-theory-and-oligopolies/prisoner-dilemma.png" title="Prisoner&amp;rsquo;s Dilemna" data-thumbnail="/posts/1-game-theory-and-oligopolies/prisoner-dilemma.png" data-sub-html="<h2>Prisoner&#39;s Dilemma</h2><p>Prisoner&amp;rsquo;s Dilemna</p>">
+        <img
+            class="lazyload"
+            src="/blog/svg/loading.min.svg"
+            data-src="/posts/1-game-theory-and-oligopolies/prisoner-dilemma.png"
+            data-srcset="/posts/1-game-theory-and-oligopolies/prisoner-dilemma.png, /posts/1-game-theory-and-oligopolies/prisoner-dilemma.png 1.5x, /posts/1-game-theory-and-oligopolies/prisoner-dilemma.png 2x"
+            data-sizes="auto"
+            alt="/posts/1-game-theory-and-oligopolies/prisoner-dilemma.png" />
+    </a><figcaption class="image-caption">Prisoner's Dilemma</figcaption>
+    </figure></p>
+<p><em><strong>Top left quadrant:</strong></em></p>
+<ul>
+<li>
+<p>If Prisoner 2 confesses is there any benefit of Prisoner 1 changing strategy and not confessing?  No, because he will end up with 10 years in prison.  We know this anyway because it is the dominant strategy.</p>
+</li>
+<li>
+<p>If Prisoner 1 confesses is there any benefit for  Prisoner 2 changing strategy and not confessing?  No, because he will end up with 10 years in prison.</p>
+</li>
+</ul>
+<p>This would <strong>represent a Nash Equilibrium</strong> because there is not benefit for either player changing strategy given the strategy the other player is playing.</p>
+<p><em><strong>Bottom right quadrant:</strong></em></p>
+<ul>
+<li>
+<p>If Prisoner 2 does not confess is there any benefit of Prisoner 1 changing his/her strategy and confessing?  Yes, there is because s/he will end up with no prison sentence instead of 1 year.</p>
+</li>
+<li>
+<p>If Prisoner 1 does not confess is there any benefit of Prisoner 2 changing his/her strategy and confessing?  Yes, there is a benefit of changing strategy because s/he will also end up with no prison sentence.</p>
+</li>
+</ul>
+<p>As a result this quadrant would <strong>not represent a Nash Equilibrium</strong> since there is a benefit for each of them to deviate from their initial strategy to not confess.</p>
+<p><em><strong>Top right quadrant:</strong></em></p>
+<ul>
+<li>
+<p>If Prisoner 2 does not confess is there any benefit of Prisoner 1 changing his/her strategy and not confessing?  No, there is not a benefit because s/he will end up with 1 year in prison instead of being set free.</p>
+</li>
+<li>
+<p>If Prisoner 1 confesses is there any benefit of Prisoner 2 changing his/her strategy and confessing?  Yes, there is a benefit of changing strategy because s/he will also end up with 8 years instead of the current 10 years.</p>
+</li>
+</ul>
+<p>Again this quadrant would <strong>not represent a Nash Equilibrium</strong> since Prisoner 2 could benefit by deviating from the initial strategy of not confessing to confessing.</p>
+<p><em><strong>Bottom left quadrant:</strong></em></p>
+<ul>
+<li>
+<p>If Prisoner 2 confesses is there any benefit of Prisoner 1 changing his/her strategy and confessing?  Yes, there is a benefit because s/he will end up with 8 years in prison instead of 10 years.</p>
+</li>
+<li>
+<p>If Prisoner 1 does not confess is there any benefit of Prisoner 2 changing his/her strategy and not confessing?  No, there is no benefit of changing strategy because s/he will also end up with 1 year instead of being set free by confessing</p>
+</li>
+</ul>
+<p>Again this quadrant would <strong>not represent a Nash Equilibrium</strong> since  Prisoner 1 could benefit from the initial strategy by moving from not confessing to confessing.</p>
+<h3 id="32-example-2">3.2 Example 2</h3>
+<p>In this example let&rsquo;s consider an <strong>oligopoly</strong> situation where there are two businesses - Business A and Business B.  The two choices are that they can offer their product for a high price of £2 or a low price of £1.50.  Each pricing decision will lead to a certain amount of profit.  The matrix showing this is:</p>
+<p><br>
+<figure><a class="lightgallery" href="/posts/1-game-theory-and-oligopolies/oligopoly.png" title="Game Theory - Oligopoly" data-thumbnail="/posts/1-game-theory-and-oligopolies/oligopoly.png" data-sub-html="<h2>Game Theory - Oligopoly</h2><p>Game Theory - Oligopoly</p>">
+        <img
+            class="lazyload"
+            src="/blog/svg/loading.min.svg"
+            data-src="/posts/1-game-theory-and-oligopolies/oligopoly.png"
+            data-srcset="/posts/1-game-theory-and-oligopolies/oligopoly.png, /posts/1-game-theory-and-oligopolies/oligopoly.png 1.5x, /posts/1-game-theory-and-oligopolies/oligopoly.png 2x"
+            data-sizes="auto"
+            alt="/posts/1-game-theory-and-oligopolies/oligopoly.png" />
+    </a><figcaption class="image-caption">Game Theory - Oligopoly</figcaption>
+    </figure></p>
+<p>The dominant strategy for Business A is to charge a low price.  The dominant strategy for Business B is to charge a low price.  The Nash Equilibrium lies where there are two underlined numbers, i.e. the bottom right quadrant.  This Nash Equilibrium can last in the long term.  If this is a long term situation then there will be <strong>price rigidity</strong> (which links back to the kinked demand curve) in the market since there is no incentive to change.  If firms do decide to compete it will be on non-price factors such as:</p>
+<ul>
+<li>branding</li>
+<li>advertising</li>
+<li>quality of products</li>
+<li>quality of service</li>
+</ul>
+<p>Interestingly the Nash Equilibrium is not the best option for both firms combined.   If both firms were to charge £2 then this would give a higher profit - a total of £12m rather than £4m in the Nash Equilibrium.</p>
+<p>If firms could break this interdependence and <strong>collude</strong> then there is a way that these firms could earn higher profits, i.e. top left quadrant.  This could involve forming a <strong>cartel</strong>.  This also shows that even when there is collusion there is still an <strong>incentive to cheat</strong> and undercut and earn £8m.  Therefore, in the long-run collusion may not last.</p>
+<h3 id="33-example-3">3.3 Example 3</h3>
+<p>As a final example let&rsquo;s go back to the <strong>Golden Balls</strong> scenario.  Rather than using monetary values we will use percentages:</p>
+<p><br>
+<figure><a class="lightgallery" href="/posts/1-game-theory-and-oligopolies/golden-balls2.png" title="Golden Balls" data-thumbnail="/posts/1-game-theory-and-oligopolies/golden-balls2.png" data-sub-html="<h2>Golden Balls</h2><p>Golden Balls</p>">
+        <img
+            class="lazyload"
+            src="/blog/svg/loading.min.svg"
+            data-src="/posts/1-game-theory-and-oligopolies/golden-balls2.png"
+            data-srcset="/posts/1-game-theory-and-oligopolies/golden-balls2.png, /posts/1-game-theory-and-oligopolies/golden-balls2.png 1.5x, /posts/1-game-theory-and-oligopolies/golden-balls2.png 2x"
+            data-sizes="auto"
+            alt="/posts/1-game-theory-and-oligopolies/golden-balls2.png" />
+    </a><figcaption class="image-caption">Golden Balls</figcaption>
+    </figure></p>
+<p>As mentioned above each player has a weakly dominant strategy, which is to choose to steal.  This can be seen by underlined %&rsquo;s.   In the above matrix there are three Nash Equilibrium!</p>
+<p><br>
+<figure><a class="lightgallery" href="/posts/1-game-theory-and-oligopolies/golden-balls3.png" title="Golden Balls" data-thumbnail="/posts/1-game-theory-and-oligopolies/golden-balls3.png" data-sub-html="<h2>Golden Balls</h2><p>Golden Balls</p>">
+        <img
+            class="lazyload"
+            src="/blog/svg/loading.min.svg"
+            data-src="/posts/1-game-theory-and-oligopolies/golden-balls3.png"
+            data-srcset="/posts/1-game-theory-and-oligopolies/golden-balls3.png, /posts/1-game-theory-and-oligopolies/golden-balls3.png 1.5x, /posts/1-game-theory-and-oligopolies/golden-balls3.png 2x"
+            data-sizes="auto"
+            alt="/posts/1-game-theory-and-oligopolies/golden-balls3.png" />
+    </a><figcaption class="image-caption">Golden Balls</figcaption>
+    </figure></p>
+<p>In each of these three Nash Equilibrium outcomes a player cannot do better on his or her own by changing his or her strategy.  Notice that offering to share is not a good option.  The game was set up so that all the choices that players are making is pulling them towards the Nash Equilibrium of steal.</p>
+<p>Watch the following episode from Golden Balls to see what can happen&hellip;</p>
+<p>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/S0qjK3TWZE8" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+<!-- raw HTML omitted --></p>
+<p>A result of a split (top left quadrant) is unusual. How did Nick manage to get to this position with Abraham?  It is possible that Nick knew something about Game Theory because he changed the game; he changed the payoff matrix.</p>
+<p>Nick consistently said that he was going to steal.  He adopted a strategy that no matter what Abraham was going to walk away with nothing. He reiterated it so many times that Abraham believed it.  The strategy was unusual in that most contestants would claim that they would share.  The payoff matrix was changed by Nick so that he eliminated the left-hand side of the payoff matrix.</p>
+<p><br>
+<figure><a class="lightgallery" href="/posts/1-game-theory-and-oligopolies/golden-balls4.png" title="Golden Balls" data-thumbnail="/posts/1-game-theory-and-oligopolies/golden-balls4.png" data-sub-html="<h2>Golden Balls</h2><p>Golden Balls</p>">
+        <img
+            class="lazyload"
+            src="/blog/svg/loading.min.svg"
+            data-src="/posts/1-game-theory-and-oligopolies/golden-balls4.png"
+            data-srcset="/posts/1-game-theory-and-oligopolies/golden-balls4.png, /posts/1-game-theory-and-oligopolies/golden-balls4.png 1.5x, /posts/1-game-theory-and-oligopolies/golden-balls4.png 2x"
+            data-sizes="auto"
+            alt="/posts/1-game-theory-and-oligopolies/golden-balls4.png" />
+    </a><figcaption class="image-caption">Golden Balls</figcaption>
+    </figure></p>
+<p>Abraham is now looking at a situation where he gets zero if he steals or splits.  However, Nick also said that he would split all the money that he receives.  There was no contractual obligation for Nick to share, but he kept telling Abraham that he would share.  For Abraham there was no benefit in going for steal but there was a small possibility that Nick <strong>would share</strong> his winnings.  The rational choice for Abraham is to go for a split, hoping that there might be some money shared.  This is what Abraham did&hellip; and they ended up in the unlikely top left position of the quadrant!</p>
+<h2 id="40-final-words">4.0 Final Words</h2>
+<p>We have seen situations where there is one Nash Equilibrium and also multiple Nash Equilibrium.  There can also be games where there is no Nash Equilibrium.  An example of a game that has no Nash Equilibrium is shown in the table below.</p>
+<p><br>
+<figure><a class="lightgallery" href="/posts/1-game-theory-and-oligopolies/no-nash-eqm.png" title="No Nash Equilibrium" data-thumbnail="/posts/1-game-theory-and-oligopolies/no-nash-eqm.png" data-sub-html="<h2>No Nash Equilibrium</h2><p>No Nash Equilibrium</p>">
+        <img
+            class="lazyload"
+            src="/blog/svg/loading.min.svg"
+            data-src="/posts/1-game-theory-and-oligopolies/no-nash-eqm.png"
+            data-srcset="/posts/1-game-theory-and-oligopolies/no-nash-eqm.png, /posts/1-game-theory-and-oligopolies/no-nash-eqm.png 1.5x, /posts/1-game-theory-and-oligopolies/no-nash-eqm.png 2x"
+            data-sizes="auto"
+            alt="/posts/1-game-theory-and-oligopolies/no-nash-eqm.png" />
+    </a><figcaption class="image-caption">No Nash Equilibrium</figcaption>
+    </figure></p>
+<p>If the players end up in the <strong>top left quadrant</strong>, player B would want to switch to Right. If they end up in the <strong>top right quadrant</strong> player A wants to switch to Bottom. Furthermore, if they end up in the <strong>bottom left quadrant</strong> player A would rather have taken Top, and if they end up in the <strong>bottom right quadrant</strong> player B would be better off choosing Left. There is no dominant strategy and none of the four options is a Nash equilibrium.</p></div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>Updated on 2020-12-20</span>
+            </div></div>
+        <div class="post-info-line">
+            <div class="post-info-md"></div>
+            <div class="post-info-share">
+                <span><a href="javascript:void(0);" title="Share on Twitter" data-sharer="twitter" data-url="https://dajhub.github.io/blog/posts/1-game-theory-and-oligopolies/1-game-theory-and-oligopolies/" data-title="Game Theory and Oligopolies" data-hashtags="oligopolies"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="https://dajhub.github.io/blog/posts/1-game-theory-and-oligopolies/1-game-theory-and-oligopolies/" data-hashtag="oligopolies"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Pocket" data-sharer="pocket" data-url="https://dajhub.github.io/blog/posts/1-game-theory-and-oligopolies/1-game-theory-and-oligopolies/"><i class="fab fa-get-pocket fa-fw" aria-hidden="true"></i></a></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"><i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/blog/tags/oligopolies/">oligopolies</a></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/blog/">Home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav">
+            <a href="/blog/posts/2-re-establishing-the-link-between-hugo-and-github.md/2-re-establishing-the-link-between-hugo-and-github/" class="next" rel="next" title="Re-establishing the link between Hugo and Github">Re-establishing the link between Hugo and Github<i class="fas fa-angle-right fa-fw" aria-hidden="true"></i></a></div>
+</div>
+</article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.110.0">Hugo</a> | Theme - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.2.10"></i> LoveIt</a>
+                </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2020 - 2023</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/blog/" target="_blank">dajhub</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Back to Top">
+                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="View Comments">
+                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
+            </a>
+        </div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.4.0/css/lightgallery-bundle.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/contrib/copy-tex.min.css"><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/autocomplete.js@0.38.1/dist/autocomplete.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lunr@2.3.9/lunr.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.1/lazysizes.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.4.0/lightgallery.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.4.0/plugins/thumbnail/lg-thumbnail.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.4.0/plugins/zoom/lg-zoom.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/sharer.js@0.5.1/sharer.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/contrib/auto-render.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/contrib/copy-tex.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/contrib/mhchem.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":50},"comment":{},"lightgallery":true,"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":true,"left":"\\begin{equation}","right":"\\end{equation}"},{"display":true,"left":"\\begin{equation*}","right":"\\end{equation*}"},{"display":true,"left":"\\begin{align}","right":"\\end{align}"},{"display":true,"left":"\\begin{align*}","right":"\\end{align*}"},{"display":true,"left":"\\begin{alignat}","right":"\\end{alignat}"},{"display":true,"left":"\\begin{alignat*}","right":"\\end{alignat*}"},{"display":true,"left":"\\begin{gather}","right":"\\end{gather}"},{"display":true,"left":"\\begin{CD}","right":"\\end{CD}"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"}],"strict":false},"search":{"highlightTag":"em","maxResultLength":10,"noResultsFound":"No results found","snippetLength":30}};</script><script type="text/javascript" src="/blog/js/theme.min.js"></script></body>
+</html>

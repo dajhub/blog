@@ -1,0 +1,17 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>manjaro - Tag - dajhub</title>
+        <link>https://dajhub.github.io/blog/tags/manjaro/</link>
+        <description>manjaro - Tag - dajhub</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 03 Jul 2021 09:53:59 &#43;0000</lastBuildDate><atom:link href="https://dajhub.github.io/blog/tags/manjaro/" rel="self" type="application/rss+xml" /><item>
+    <title>Qtile in Manjaro</title>
+    <link>https://dajhub.github.io/blog/posts/8-qtile-in-manjaro/2021-07-03-qtile-in-manjaro/</link>
+    <pubDate>Sat, 03 Jul 2021 09:53:59 &#43;0000</pubDate>
+    <author>dajhub</author>
+    <guid>https://dajhub.github.io/blog/posts/8-qtile-in-manjaro/2021-07-03-qtile-in-manjaro/</guid>
+    <description><![CDATA[This post takes you briefly through how Qtile , a window manager, can be installed on Manjaro. Qtile is based on Python. The instructions assume that XFCE4 is already installed. In my case I have Manjaro XFCE .
+Installing Qtile (on Manjaro or Arch) and Loading my Configuration Files The first step is to install Qtile:
+$ sudo pacman -S qtile Qtile will, when it loads, look for a script in &lsquo;~/.]]></description>
+</item>
+</channel>
+</rss>

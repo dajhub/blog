@@ -1,0 +1,25 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>ECONOMICS - Category - dajhub</title>
+        <link>https://dajhub.github.io/blog/categories/economics/</link>
+        <description>ECONOMICS - Category - dajhub</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 06 Feb 2021 11:53:59 &#43;0000</lastBuildDate><atom:link href="https://dajhub.github.io/blog/categories/economics/" rel="self" type="application/rss+xml" /><item>
+    <title>Trying To Understand Quantitative Easing</title>
+    <link>https://dajhub.github.io/blog/posts/4-quantitative-easing/2021-02-06-quantitative-easing/</link>
+    <pubDate>Sat, 06 Feb 2021 11:53:59 &#43;0000</pubDate>
+    <author>dajhub</author>
+    <guid>https://dajhub.github.io/blog/posts/4-quantitative-easing/2021-02-06-quantitative-easing/</guid>
+    <description><![CDATA[This post looks at why Quantitative Easing (QE) is used by governments, how it works, and some of the criticisms levelled at QE.
+1.0 The Bond Market &amp; Interest Rates Before looking at quantitative easing it is helpful to have a basic knowledge of the relationship between bond prices and interest rates. Bonds have an inverse relationship to interest rates; when interest rates rise, bond prices fall, and vice-versa.
+Worked example:]]></description>
+</item>
+<item>
+    <title>Game Theory and Oligopolies</title>
+    <link>https://dajhub.github.io/blog/posts/1-game-theory-and-oligopolies/1-game-theory-and-oligopolies/</link>
+    <pubDate>Sun, 20 Dec 2020 11:53:59 &#43;0000</pubDate>
+    <author>dajhub</author>
+    <guid>https://dajhub.github.io/blog/posts/1-game-theory-and-oligopolies/1-game-theory-and-oligopolies/</guid>
+    <description><![CDATA[<p>When examining Oligopolies we often use the kinked demand curve to show how firms might face a dual demand curve (i.e. elastic and inelastic) for its product based on the likely reactions of other firms to a change in its price.  Game Theory can also be used by economists to gain a more detailed understanding of how oligopolies might operate in their market.</p>]]></description>
+</item>
+</channel>
+</rss>

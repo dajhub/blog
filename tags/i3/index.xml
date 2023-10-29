@@ -1,0 +1,18 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>i3 - Tag - dajhub</title>
+        <link>https://dajhub.github.io/blog/tags/i3/</link>
+        <description>i3 - Tag - dajhub</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Fri, 22 Sep 2023 08:30:00 &#43;0000</lastBuildDate><atom:link href="https://dajhub.github.io/blog/tags/i3/" rel="self" type="application/rss+xml" /><item>
+    <title>i3 Window Manager - Spiral Tiling</title>
+    <link>https://dajhub.github.io/blog/posts/14-tiling/14-tiling/</link>
+    <pubDate>Fri, 22 Sep 2023 08:30:00 &#43;0000</pubDate>
+    <author>dajhub</author>
+    <guid>https://dajhub.github.io/blog/posts/14-tiling/14-tiling/</guid>
+    <description><![CDATA[i3 is a tiling window manager which automatically places your windows to make the best use of the space available on your screen.
+The default tiling for i3 looks like:
+My prefered tiling is a spiral layout as shown below.
+To achieve this spiral tiling, Piotr Miller has created a fantastic script which can be found on his GitHub page . It is worth reading through the GitHub page before proceeding.]]></description>
+</item>
+</channel>
+</rss>

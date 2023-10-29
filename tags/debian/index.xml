@@ -1,0 +1,27 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>debian - Tag - dajhub</title>
+        <link>https://dajhub.github.io/blog/tags/debian/</link>
+        <description>debian - Tag - dajhub</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Fri, 22 Sep 2023 08:30:00 &#43;0000</lastBuildDate><atom:link href="https://dajhub.github.io/blog/tags/debian/" rel="self" type="application/rss+xml" /><item>
+    <title>i3 Window Manager - Spiral Tiling</title>
+    <link>https://dajhub.github.io/blog/posts/14-tiling/14-tiling/</link>
+    <pubDate>Fri, 22 Sep 2023 08:30:00 &#43;0000</pubDate>
+    <author>dajhub</author>
+    <guid>https://dajhub.github.io/blog/posts/14-tiling/14-tiling/</guid>
+    <description><![CDATA[i3 is a tiling window manager which automatically places your windows to make the best use of the space available on your screen.
+The default tiling for i3 looks like:
+My prefered tiling is a spiral layout as shown below.
+To achieve this spiral tiling, Piotr Miller has created a fantastic script which can be found on his GitHub page . It is worth reading through the GitHub page before proceeding.]]></description>
+</item>
+<item>
+    <title>Debian - Help, I’m not in the sudoers file!!</title>
+    <link>https://dajhub.github.io/blog/posts/13-help-im-not-in-the-sudoers-file/2023-09-16-help-im-not-in-the-sudoers-file/</link>
+    <pubDate>Sat, 16 Sep 2023 08:58:59 &#43;0000</pubDate>
+    <author>dajhub</author>
+    <guid>https://dajhub.github.io/blog/posts/13-help-im-not-in-the-sudoers-file/2023-09-16-help-im-not-in-the-sudoers-file/</guid>
+    <description><![CDATA[It may be that having installed a new Debian desktop (in my case XFCE4) and you try to update (i.e. &ldquo;$ sudo apt update &amp;&amp; sudo apt upgrade&rdquo;) you end up with the following error message:
+The message is just a warning on your local machine. It shows that you attempted to gain root access and were not an authorised user. To add yourself to the sudoers file you will firstly need, through your terminal, to login as root, i.]]></description>
+</item>
+</channel>
+</rss>

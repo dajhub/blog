@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>Changing Display Manager from LightDM to Slick Greeter - dajhub</title><meta name="Description" content="dajhub"><meta property="og:title" content="Changing Display Manager from LightDM to Slick Greeter" />
+<meta property="og:description" content="Display managers provide you with a graphical login for your Linux distrbution. Below is an example of the LightDM display manager which is on my current Arch install:
+An alternative display manager is slick-greeter which uses LightDM but is Linux Mint’s Cinnamon desktop own version. There are some, including me, that believe it is a more attractive display manager than the default LightDM display manager.
+To install slick-greeter on Arch via your terminal:" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://dajhub.github.io/blog/posts/11-changing-display-manager/2022-04-16-changing-display-manager/" /><meta property="og:image" content="https://dajhub.github.io/logo.png"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2022-04-16T09:58:59+00:00" />
+<meta property="article:modified_time" content="2022-04-16T09:58:59+00:00" /><meta property="og:site_name" content="dajhub" />
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://dajhub.github.io/logo.png"/>
+
+<meta name="twitter:title" content="Changing Display Manager from LightDM to Slick Greeter"/>
+<meta name="twitter:description" content="Display managers provide you with a graphical login for your Linux distrbution. Below is an example of the LightDM display manager which is on my current Arch install:
+An alternative display manager is slick-greeter which uses LightDM but is Linux Mint’s Cinnamon desktop own version. There are some, including me, that believe it is a more attractive display manager than the default LightDM display manager.
+To install slick-greeter on Arch via your terminal:"/>
+<meta name="application-name" content="dajhub">
+<meta name="apple-mobile-web-app-title" content="dajhub"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://dajhub.github.io/blog/posts/11-changing-display-manager/2022-04-16-changing-display-manager/" /><link rel="prev" href="https://dajhub.github.io/blog/posts/10-changing-header-colors/2021-07-23-changing-header-colors-in-jekylls-minima-theme/" /><link rel="next" href="https://dajhub.github.io/blog/posts/12-fedora-xfce-a-minimal-install/2022-07-25-fedora-xfce-a-minimal-install/" /><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css"><link rel="stylesheet" href="/blog/css/style.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"><meta name="google-site-verification" content="Fa4884Am4K-2p1sLDh1nREN_glxeFtFndBIGQ4ZF1JQ" /><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Changing Display Manager from LightDM to Slick Greeter",
+        "inLanguage": "en",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/dajhub.github.io\/blog\/posts\/11-changing-display-manager\/2022-04-16-changing-display-manager\/"
+        },"genre": "posts","keywords": "arch, display manager","wordcount":  559 ,
+        "url": "https:\/\/dajhub.github.io\/blog\/posts\/11-changing-display-manager\/2022-04-16-changing-display-manager\/","datePublished": "2022-04-16T09:58:59+00:00","dateModified": "2022-04-16T09:58:59+00:00","publisher": {
+            "@type": "Organization",
+            "name": ""},"author": {
+                "@type": "Person",
+                "name": "dajhub"
+            },"description": ""
+    }
+    </script></head>
+    <body data-header-desktop="auto" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/blog/" title="dajhub">dajhub</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/blog/posts/"> Posts </a><a class="menu-item" href="/blog/tags/"> Tags </a><a class="menu-item" href="/blog/categories/"> Categories </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Search">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="Clear">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/blog/" title="dajhub">dajhub</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="Search">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="Clear">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        Cancel
+                    </a>
+                </div><a class="menu-item" href="/blog/posts/" title="">Posts</a><a class="menu-item" href="/blog/tags/" title="">Tags</a><a class="menu-item" href="/blog/categories/" title="">Categories</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a></div>
+    </div>
+</header><div class="search-dropdown desktop">
+        <div id="search-dropdown-desktop"></div>
+    </div>
+    <div class="search-dropdown mobile">
+        <div id="search-dropdown-mobile"></div>
+    </div><main class="main">
+                <div class="container"><article class="page single"><h1 class="single-title animate__animated animate__flipInX">Changing Display Manager from LightDM to Slick Greeter</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="/blog/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>dajhub</a>
+</span>&nbsp;<span class="post-category">included in <a href="/blog/categories/linux/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>LINUX</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2022-04-16">2022-04-16</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;559 words&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;3 minutes&nbsp;</div>
+        </div><div class="content" id="content"><p>Display managers provide you with a graphical login for your Linux distrbution.  Below is an example of the <a href="https://en.wikipedia.org/wiki/LightDM" target="_blank" rel="noopener noreffer">LightDM</a>
+ display manager which is on my current Arch install:</p>
+<p><img
+        class="lazyload"
+        src="/blog/svg/loading.min.svg"
+        data-src="https://i.imgur.com/bVXbqiC.png"
+        data-srcset="https://i.imgur.com/bVXbqiC.png, https://i.imgur.com/bVXbqiC.png 1.5x, https://i.imgur.com/bVXbqiC.png 2x"
+        data-sizes="auto"
+        alt="https://i.imgur.com/bVXbqiC.png"
+        title="LightDM-display-manager" /></p>
+<p>An alternative display manager is <a href="https://github.com/linuxmint/slick-greeter" target="_blank" rel="noopener noreffer">slick-greeter</a>
+ which uses LightDM but is <a href="https://linuxmint.com/" target="_blank" rel="noopener noreffer">Linux Mint’s</a>
+ Cinnamon desktop own version.  There are some, including me, that believe it is a more attractive display manager than the default LightDM display manager.</p>
+<p>To install slick-greeter on Arch via your terminal:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">$ sudo pacman -S lightdm-slick-greeter
+</span></span></code></pre></div><p>Once you have installed slick-greeter you need to change the default greeter session, which is LightDM.  In your terminal:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">$ sudo nano /etc/lightdm/lightdm.conf
+</span></span></code></pre></div><p>Once opened, scroll down to the line [Seat:*]. About sixteen lines below this you will see a line which looks like:</p>
+<pre tabindex="0"><code>greeter-session=lightdm-gtk-greeter
+</code></pre><p>The line needs to be changed to:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">greeter-session<span class="o">=</span>lightdm-slick-greeter
+</span></span></code></pre></div><p>Save the file with the modification you have made using Ctrl+O.  To exit nano use Ctrl+X.</p>
+<p>Next, as root open nano again</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">$ sudo nano /etc/lightdm/slick-greeter.conf 
+</span></span></code></pre></div><p>This file will not exist, so nano will create it.  You can then add the following lines (source: <a href="https://github.com/linuxmint/slick-greeter" target="_blank" rel="noopener noreffer">https://github.com/linuxmint/slick-greeter</a>
+) to slick-greeter.conf.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># LightDM GTK+ Configuration</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># Available configuration options listed below.</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># activate-numlock=Whether to activate numlock. This features requires the installation of numlockx. (true or false)</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># background=Background file to use, either an image path or a color (e.g. #772953)</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># background-color=Background color (e.g. #772953), set before wallpaper is seen</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># draw-user-backgrounds=Whether to draw user backgrounds (true or false)</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># draw-grid=Whether to draw an overlay grid (true or false)</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># show-hostname=Whether to show the hostname in the menubar (true or false)</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># show-power=Whether to show the power indicator in the menubar (true or false)</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># show-a11y=Whether to show the accessibility options in the menubar (true or false)</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># show-keyboard=Whether to show the keyboard indicator in the menubar (true or false)</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># show-clock=Whether to show the clock in the menubar (true or false)</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># show-quit=Whether to show the quit menu in the menubar (true or false)</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># logo=Logo file to use</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># other-monitors-logo=Logo file to use for other monitors</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># theme-name=GTK+ theme to use</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># icon-theme-name=Icon theme to use</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># font-name=Font to use</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># xft-antialias=Whether to antialias Xft fonts (true or false)</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># xft-dpi=Resolution for Xft in dots per inch</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># xft-hintstyle=What degree of hinting to use (hintnone/hintslight/hintmedium/hintfull)</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># xft-rgba=Type of subpixel antialiasing (none/rgb/bgr/vrgb/vbgr)</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># onscreen-keyboard=Whether to enable the onscreen keyboard (true or false)</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># high-contrast=Whether to use a high contrast theme (true or false)</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># screen-reader=Whether to enable the screen reader (true or false)</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># play-ready-sound=A sound file to play when the greeter is ready</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># hidden-users=List of usernames that are hidden until a special key combination is hit</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># group-filter=List of groups that users must be part of to be shown (empty list shows all users)</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># enable-hidpi=Whether to enable HiDPI support (on/off/auto)</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># only-on-monitor=Sets the monitor on which to show the login window, -1 means &#34;follow the mouse&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># stretch-background-across-monitors=Whether to stretch the background across multiple monitors (false by default)</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># clock-format=What clock format to use (e.g., %H:%M or %l:%M %p)</span>
+</span></span><span class="line"><span class="cl"><span class="o">[</span>Greeter<span class="o">]</span>
+</span></span><span class="line"><span class="cl">draw-grid<span class="o">=</span><span class="nb">false</span>
+</span></span><span class="line"><span class="cl"><span class="nv">background</span><span class="o">=</span>/usr/share/backgrounds/archlinux.png
+</span></span></code></pre></div><p>The #&rsquo;s mean that the options are not being used but can become active by uncommenting.  See the last two lines as an example. Change the &ldquo;background=&rdquo; to whatever background file you desire. Save the file as before with Ctrl+O and then Ctrl+X.</p>
+<p>After restarting your computer the new login screen looks as follows:</p>
+<p><img
+        class="lazyload"
+        src="/blog/svg/loading.min.svg"
+        data-src="https://i.imgur.com/f2iefcj.png"
+        data-srcset="https://i.imgur.com/f2iefcj.png, https://i.imgur.com/f2iefcj.png 1.5x, https://i.imgur.com/f2iefcj.png 2x"
+        data-sizes="auto"
+        alt="https://i.imgur.com/f2iefcj.png"
+        title="SlickGreeter-DM" /></p>
+</div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>Updated on 2022-04-16</span>
+            </div></div>
+        <div class="post-info-line">
+            <div class="post-info-md"></div>
+            <div class="post-info-share">
+                <span><a href="javascript:void(0);" title="Share on Twitter" data-sharer="twitter" data-url="https://dajhub.github.io/blog/posts/11-changing-display-manager/2022-04-16-changing-display-manager/" data-title="Changing Display Manager from LightDM to Slick Greeter" data-hashtags="arch,display manager"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="https://dajhub.github.io/blog/posts/11-changing-display-manager/2022-04-16-changing-display-manager/" data-hashtag="arch"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Pocket" data-sharer="pocket" data-url="https://dajhub.github.io/blog/posts/11-changing-display-manager/2022-04-16-changing-display-manager/"><i class="fab fa-get-pocket fa-fw" aria-hidden="true"></i></a></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"><i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/blog/tags/arch/">arch</a>,&nbsp;<a href="/blog/tags/display-manager/">display manager</a></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/blog/">Home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"><a href="/blog/posts/10-changing-header-colors/2021-07-23-changing-header-colors-in-jekylls-minima-theme/" class="prev" rel="prev" title="Changing Header Colors in Jekyll&#39;s Minima Theme"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>Changing Header Colors in Jekyll&#39;s Minima Theme</a>
+            <a href="/blog/posts/12-fedora-xfce-a-minimal-install/2022-07-25-fedora-xfce-a-minimal-install/" class="next" rel="next" title="Fedora Xfce | A minimal install">Fedora Xfce | A minimal install<i class="fas fa-angle-right fa-fw" aria-hidden="true"></i></a></div>
+</div>
+</article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.110.0">Hugo</a> | Theme - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.2.10"></i> LoveIt</a>
+                </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2020 - 2023</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/blog/" target="_blank">dajhub</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Back to Top">
+                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="View Comments">
+                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
+            </a>
+        </div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.4.0/css/lightgallery-bundle.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/contrib/copy-tex.min.css"><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/autocomplete.js@0.38.1/dist/autocomplete.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lunr@2.3.9/lunr.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.1/lazysizes.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.4.0/lightgallery.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.4.0/plugins/thumbnail/lg-thumbnail.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.4.0/plugins/zoom/lg-zoom.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/sharer.js@0.5.1/sharer.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/contrib/auto-render.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/contrib/copy-tex.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/contrib/mhchem.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":50},"comment":{},"lightgallery":true,"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":true,"left":"\\begin{equation}","right":"\\end{equation}"},{"display":true,"left":"\\begin{equation*}","right":"\\end{equation*}"},{"display":true,"left":"\\begin{align}","right":"\\end{align}"},{"display":true,"left":"\\begin{align*}","right":"\\end{align*}"},{"display":true,"left":"\\begin{alignat}","right":"\\end{alignat}"},{"display":true,"left":"\\begin{alignat*}","right":"\\end{alignat*}"},{"display":true,"left":"\\begin{gather}","right":"\\end{gather}"},{"display":true,"left":"\\begin{CD}","right":"\\end{CD}"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"}],"strict":false},"search":{"highlightTag":"em","maxResultLength":10,"noResultsFound":"No results found","snippetLength":30}};</script><script type="text/javascript" src="/blog/js/theme.min.js"></script></body>
+</html>
