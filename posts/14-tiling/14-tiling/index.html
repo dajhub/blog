@@ -27,7 +27,7 @@
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https:\/\/dajhub.co.uk\/posts\/14-tiling\/14-tiling\/"
-        },"genre": "posts","keywords": "debian, i3, window manager","wordcount":  286 ,
+        },"genre": "posts","keywords": "debian, i3, window manager","wordcount":  282 ,
         "url": "https:\/\/dajhub.co.uk\/posts\/14-tiling\/14-tiling\/","datePublished": "2023-09-22T08:30:00+00:00","dateModified": "2023-09-22T08:30:00+00:00","publisher": {
             "@type": "Organization",
             "name": ""},"author": {
@@ -100,7 +100,7 @@
                 <div class="container"><article class="page single"><h1 class="single-title animate__animated animate__flipInX">i3 Window Manager - Spiral Tiling</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>dajhub</a>
 </span>&nbsp;<span class="post-category">included in <a href="/categories/linux/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>LINUX</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2023-09-22">2023-09-22</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;286 words&nbsp;
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2023-09-22">2023-09-22</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;282 words&nbsp;
                 <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;2 minutes&nbsp;</div>
         </div><div class="content" id="content"><p>i3 is a tiling window manager which automatically places your windows to make the best use of the space available on your screen.</p>
 <p>The default tiling for i3 looks like:</p>
@@ -126,16 +126,16 @@
 <ul>
 <li>
 <p>To meet the requirements for installing the script you will need to install <code>pip</code>, which is a package manager for the Python coding language, and <code>13ipc</code>, which is a Python library for controlling the window manage (i3).  In a terminal:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">$ sudo dnf install python3-pip
-</span></span><span class="line"><span class="cl">$ pip install i3ipc
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo dnf install python3-pip
+</span></span><span class="line"><span class="cl">pip install i3ipc
 </span></span></code></pre></div></li>
 <li>
 <p>Next, locate the file <code>main.py</code> in the GitHub page.  If you navigate to <strong>View code</strong> near the top of the GitHub page	and then find the folder <strong>autotiling</strong>.  In the <strong>autotiling</strong> folder, open the <code>main.py</code> file and copy the contents into a new file.  The new file has to be created called <code>autotiling</code>. For me, I created the new file in <strong>Downloads</strong> since we&rsquo;re going to move it shortly.  Having created the file but before moving it, we need to make the file executable:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">$ chmod +x ~/Downloads/autotiling
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">chmod +x ~/Downloads/autotiling
 </span></span></code></pre></div></li>
 <li>
 <p>We can now move the file we have created to our bin folder located at /bin/</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">$ sudo mv ~/Downloads/autotiling /bin/
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo mv ~/Downloads/autotiling /bin/
 </span></span></code></pre></div></li>
 <li>
 <p>To ensure that autotiling starts when i3 loads, we need to add the following script to our <code>config</code> file which is located in <code>~/.config/i3/</code>.</p>
