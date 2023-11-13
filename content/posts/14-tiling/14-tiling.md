@@ -25,20 +25,20 @@ To achieve this spiral tiling, Piotr Miller has created a fantastic script which
 - To meet the requirements for installing the script you will need to install `pip`, which is a package manager for the Python coding language, and `13ipc`, which is a Python library for controlling the window manage (i3).  In a terminal:
 
 	```bash
-	$ sudo dnf install python3-pip
-	$ pip install i3ipc
+	sudo dnf install python3-pip
+	pip install i3ipc
 	```
 
 - Next, locate the file `main.py` in the GitHub page.  If you navigate to **View code** near the top of the GitHub page	and then find the folder **autotiling**.  In the **autotiling** folder, open the `main.py` file and copy the contents into a new file.  The new file has to be created called `autotiling`. For me, I created the new file in **Downloads** since we're going to move it shortly.  Having created the file but before moving it, we need to make the file executable:
 
 	```bash
-	$ chmod +x ~/Downloads/autotiling
+	chmod +x ~/Downloads/autotiling
 	```
 
 - We can now move the file we have created to our bin folder located at /bin/ 
 
 	```bash
-	$ sudo mv ~/Downloads/autotiling /bin/
+	sudo mv ~/Downloads/autotiling /bin/
 	```
 
 - To ensure that autotiling starts when i3 loads, we need to add the following script to our `config` file which is located in `~/.config/i3/`.
