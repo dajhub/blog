@@ -20,7 +20,7 @@ My prefered tiling is a spiral layout as shown below.
 
 ![i3-tiling-new](https://i.imgur.com/P0se76d.png)
 
-To achieve this spiral tiling, Piotr Miller has created a fantastic script which can be found on his [GitHub page](https://github.com/nwg-piotr/autotiling/tree/master).    It is worth reading through the GitHub page before proceeding.  However, the process for installing autotiling script on Fedora is as follows:
+To achieve this spiral tiling, Piotr Miller has created a fantastic script which can be found on his [GitHub page](https://github.com/nwg-piotr/autotiling/tree/master).    It is worth reading through the GitHub page before proceeding.  However, the process for installing autotiling script on **Fedora** is as follows:
 
 - To meet the requirements for installing the script you will need to install `pip`, which is a package manager for the Python coding language, and `13ipc`, which is a Python library for controlling the window manage (i3).  In a terminal:
 
