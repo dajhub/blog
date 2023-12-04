@@ -3,7 +3,17 @@
         <title>fedora - Tag - dajhub</title>
         <link>https://dajhub.co.uk/tags/fedora/</link>
         <description>fedora - Tag - dajhub</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 25 Jul 2022 08:58:59 &#43;0000</lastBuildDate><atom:link href="https://dajhub.co.uk/tags/fedora/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 26 Nov 2023 08:30:00 &#43;0000</lastBuildDate><atom:link href="https://dajhub.co.uk/tags/fedora/" rel="self" type="application/rss+xml" /><item>
+    <title>Ricing Fedora i3</title>
+    <link>https://dajhub.co.uk/posts/15-fedora-i3/2023-11-26-i3-fedora-and-theming/</link>
+    <pubDate>Sun, 26 Nov 2023 08:30:00 &#43;0000</pubDate>
+    <author>dajhub</author>
+    <guid>https://dajhub.co.uk/posts/15-fedora-i3/2023-11-26-i3-fedora-and-theming/</guid>
+    <description><![CDATA[This brief article looks at installing i3 on Fedora and some basic theming/ricing to improve on Fedora&rsquo;s pretty bare bones look (see the image below)!! To get started we firstly need to install i3.
+1.0 Installing i3 on Fedora The download for Fedora&rsquo;s i3 spin can be found on their &ldquo;spins&rdquo; page: https://fedoraproject.org/spins/i3/download .
+To install Fedora i3 you will need to transfer the downloaded file to a bootable medium, which is usually an USB stick.]]></description>
+</item>
+<item>
     <title>Fedora Xfce | A minimal install</title>
     <link>https://dajhub.co.uk/posts/12-fedora-xfce-a-minimal-install/2022-07-25-fedora-xfce-a-minimal-install/</link>
     <pubDate>Mon, 25 Jul 2022 08:58:59 &#43;0000</pubDate>

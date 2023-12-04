@@ -3,9 +3,19 @@
         <title>dajhub</title>
         <link>https://dajhub.co.uk/</link>
         <description>dajhub</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Fri, 22 Sep 2023 08:30:00 &#43;0000</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 26 Nov 2023 08:30:00 &#43;0000</lastBuildDate>
             <atom:link href="https://dajhub.co.uk/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>Ricing Fedora i3</title>
+    <link>https://dajhub.co.uk/posts/15-fedora-i3/2023-11-26-i3-fedora-and-theming/</link>
+    <pubDate>Sun, 26 Nov 2023 08:30:00 &#43;0000</pubDate>
+    <author>dajhub</author>
+    <guid>https://dajhub.co.uk/posts/15-fedora-i3/2023-11-26-i3-fedora-and-theming/</guid>
+    <description><![CDATA[This brief article looks at installing i3 on Fedora and some basic theming/ricing to improve on Fedora&rsquo;s pretty bare bones look (see the image below)!! To get started we firstly need to install i3.
+1.0 Installing i3 on Fedora The download for Fedora&rsquo;s i3 spin can be found on their &ldquo;spins&rdquo; page: https://fedoraproject.org/spins/i3/download .
+To install Fedora i3 you will need to transfer the downloaded file to a bootable medium, which is usually an USB stick.]]></description>
+</item>
+<item>
     <title>i3 Window Manager - Spiral Tiling</title>
     <link>https://dajhub.co.uk/posts/14-tiling/14-tiling/</link>
     <pubDate>Fri, 22 Sep 2023 08:30:00 &#43;0000</pubDate>
@@ -90,17 +100,6 @@ On the first screen select &ldquo;Installation&rdquo;]]></description>
     <author>dajhub</author>
     <guid>https://dajhub.co.uk/posts/6-jekyll-in-arch/2021-02-28-jekyll-in-arch/</guid>
     <description><![CDATA[Jekyll is a static open source site generator which I&rsquo;ve used for a while in conjunction with free hosting on GitHub . It&rsquo;s a great combination for hosting a free site/blog. The instructions on the Jekyll site make it easy to install. I&rsquo;ve used the Jekyll instructions to install it on both Fedora and Ubuntu with few problems. However, the set-up was a little more problematic. These are the steps I went through to install Jekyll on Arch:]]></description>
-</item>
-<item>
-    <title>Resizing Images with ImageMagick</title>
-    <link>https://dajhub.co.uk/posts/5-imagemagik/2021-02-15-imagemagik/</link>
-    <pubDate>Mon, 15 Feb 2021 11:53:59 &#43;0000</pubDate>
-    <author>dajhub</author>
-    <guid>https://dajhub.co.uk/posts/5-imagemagik/2021-02-15-imagemagik/</guid>
-    <description><![CDATA[ImageMagick is free and open-source software which allows you to use the command line to convert and modify images in many formats including GIF, JPEG, and PNG. Using the terminal to manipulate images is, on the whole, straightforward and can save a lot of time.
-In Fedora you will first need to install ImageMagick:
-$ sudo dnf install ImageMagick In Ubuntu the commands are:
-$ sudo apt update $ sudo apt upgrade $ sudo apt install imagemagick In Arch:]]></description>
 </item>
 </channel>
 </rss>

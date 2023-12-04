@@ -2,18 +2,19 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>https://dajhub.co.uk/categories/</loc><lastmod>2023-09-22T08:30:00&#43;00:00</lastmod></url><url>
-            <loc>https://dajhub.co.uk/</loc><lastmod>2023-09-22T08:30:00&#43;00:00</lastmod></url><url>
+            <loc>https://dajhub.co.uk/categories/</loc><lastmod>2023-11-26T08:30:00&#43;00:00</lastmod></url><url>
+            <loc>https://dajhub.co.uk/</loc><lastmod>2023-11-26T08:30:00&#43;00:00</lastmod></url><url>
+            <loc>https://dajhub.co.uk/tags/fedora/</loc><lastmod>2023-11-26T08:30:00&#43;00:00</lastmod></url><url>
+            <loc>https://dajhub.co.uk/tags/i3/</loc><lastmod>2023-11-26T08:30:00&#43;00:00</lastmod></url><url>
+            <loc>https://dajhub.co.uk/categories/linux/</loc><lastmod>2023-11-26T08:30:00&#43;00:00</lastmod></url><url>
+            <loc>https://dajhub.co.uk/posts/</loc><lastmod>2023-11-26T08:30:00&#43;00:00</lastmod></url><url>
+            <loc>https://dajhub.co.uk/posts/15-fedora-i3/2023-11-26-i3-fedora-and-theming/</loc><lastmod>2023-11-26T08:30:00&#43;00:00</lastmod></url><url>
+            <loc>https://dajhub.co.uk/tags/</loc><lastmod>2023-11-26T08:30:00&#43;00:00</lastmod></url><url>
+            <loc>https://dajhub.co.uk/tags/window-manager/</loc><lastmod>2023-11-26T08:30:00&#43;00:00</lastmod></url><url>
             <loc>https://dajhub.co.uk/tags/debian/</loc><lastmod>2023-09-22T08:30:00&#43;00:00</lastmod></url><url>
-            <loc>https://dajhub.co.uk/tags/i3/</loc><lastmod>2023-09-22T08:30:00&#43;00:00</lastmod></url><url>
             <loc>https://dajhub.co.uk/posts/14-tiling/14-tiling/</loc><lastmod>2023-09-22T08:30:00&#43;00:00</lastmod></url><url>
-            <loc>https://dajhub.co.uk/categories/linux/</loc><lastmod>2023-09-22T08:30:00&#43;00:00</lastmod></url><url>
-            <loc>https://dajhub.co.uk/posts/</loc><lastmod>2023-09-22T08:30:00&#43;00:00</lastmod></url><url>
-            <loc>https://dajhub.co.uk/tags/</loc><lastmod>2023-09-22T08:30:00&#43;00:00</lastmod></url><url>
-            <loc>https://dajhub.co.uk/tags/window-manager/</loc><lastmod>2023-09-22T08:30:00&#43;00:00</lastmod></url><url>
             <loc>https://dajhub.co.uk/posts/13-help-im-not-in-the-sudoers-file/2023-09-16-help-im-not-in-the-sudoers-file/</loc><lastmod>2023-09-16T08:58:59&#43;00:00</lastmod></url><url>
             <loc>https://dajhub.co.uk/tags/desktops/</loc><lastmod>2022-07-25T08:58:59&#43;00:00</lastmod></url><url>
-            <loc>https://dajhub.co.uk/tags/fedora/</loc><lastmod>2022-07-25T08:58:59&#43;00:00</lastmod></url><url>
             <loc>https://dajhub.co.uk/posts/12-fedora-xfce-a-minimal-install/2022-07-25-fedora-xfce-a-minimal-install/</loc><lastmod>2022-07-25T08:58:59&#43;00:00</lastmod></url><url>
             <loc>https://dajhub.co.uk/tags/xfce/</loc><lastmod>2022-07-25T08:58:59&#43;00:00</lastmod></url><url>
             <loc>https://dajhub.co.uk/tags/arch/</loc><lastmod>2022-04-16T09:58:59&#43;00:00</lastmod></url><url>

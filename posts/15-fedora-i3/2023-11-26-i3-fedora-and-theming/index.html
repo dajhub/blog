@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>Ricing Fedora i3 - dajhub</title><meta name="Description" content="Ricing Fedora i3"><meta property="og:title" content="Ricing Fedora i3" />
+<meta property="og:description" content="Ricing Fedora i3" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://dajhub.co.uk/posts/15-fedora-i3/2023-11-26-i3-fedora-and-theming/" /><meta property="og:image" content="https://dajhub.co.uk/logo.png"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-11-26T08:30:00+00:00" />
+<meta property="article:modified_time" content="2023-11-26T08:30:00+00:00" /><meta property="og:site_name" content="dajhub" />
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://dajhub.co.uk/logo.png"/>
+
+<meta name="twitter:title" content="Ricing Fedora i3"/>
+<meta name="twitter:description" content="Ricing Fedora i3"/>
+<meta name="application-name" content="dajhub">
+<meta name="apple-mobile-web-app-title" content="dajhub"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://dajhub.co.uk/posts/15-fedora-i3/2023-11-26-i3-fedora-and-theming/" /><link rel="prev" href="https://dajhub.co.uk/posts/14-tiling/14-tiling/" /><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"><meta name="google-site-verification" content="Fa4884Am4K-2p1sLDh1nREN_glxeFtFndBIGQ4ZF1JQ" /><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Ricing Fedora i3",
+        "inLanguage": "en",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/dajhub.co.uk\/posts\/15-fedora-i3\/2023-11-26-i3-fedora-and-theming\/"
+        },"genre": "posts","keywords": "fedora, i3, window manager","wordcount":  1592 ,
+        "url": "https:\/\/dajhub.co.uk\/posts\/15-fedora-i3\/2023-11-26-i3-fedora-and-theming\/","datePublished": "2023-11-26T08:30:00+00:00","dateModified": "2023-11-26T08:30:00+00:00","publisher": {
+            "@type": "Organization",
+            "name": ""},"author": {
+                "@type": "Person",
+                "name": "dajhub"
+            },"description": "Ricing Fedora i3"
+    }
+    </script></head>
+    <body data-header-desktop="auto" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="dajhub">dajhub</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> Posts </a><a class="menu-item" href="/tags/"> Tags </a><a class="menu-item" href="/categories/"> Categories </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Search">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="Clear">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="dajhub">dajhub</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="Search">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="Clear">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        Cancel
+                    </a>
+                </div><a class="menu-item" href="/posts/" title="">Posts</a><a class="menu-item" href="/tags/" title="">Tags</a><a class="menu-item" href="/categories/" title="">Categories</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a></div>
+    </div>
+</header><div class="search-dropdown desktop">
+        <div id="search-dropdown-desktop"></div>
+    </div>
+    <div class="search-dropdown mobile">
+        <div id="search-dropdown-mobile"></div>
+    </div><main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">Contents</h2>
+            <div class="toc-content always-active" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">Ricing Fedora i3</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>dajhub</a>
+</span>&nbsp;<span class="post-category">included in <a href="/categories/linux/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>LINUX</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2023-11-26">2023-11-26</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;1592 words&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;8 minutes&nbsp;</div>
+        </div><div class="details toc" id="toc-static"  data-kept="">
+                <div class="details-summary toc-title">
+                    <span>Contents</span>
+                    <span><i class="details-icon fas fa-angle-right" aria-hidden="true"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#10-installing-i3-on-fedora">1.0 Installing i3 on Fedora</a></li>
+    <li><a href="#20-a-few-essential-tasks">2.0 A Few Essential Tasks</a>
+      <ul>
+        <li><a href="#21-update-the-system">2.1 Update the system</a></li>
+        <li><a href="#22-changing-your-hostname">2.2 Changing your hostname</a></li>
+        <li><a href="#23-install-git">2.3 Install git</a></li>
+      </ul>
+    </li>
+    <li><a href="#30-basic-i3-keyboard-shortcuts">3.0 Basic i3 Keyboard Shortcuts</a></li>
+    <li><a href="#40-installing-alternative-configuration-files">4.0 Installing alternative configuration files</a></li>
+    <li><a href="#50-themingricing-i3">5.0 Theming/Ricing i3</a>
+      <ul>
+        <li><a href="#51-background-wallpaper">5.1 Background Wallpaper</a></li>
+        <li><a href="#52-gtk-theme">5.2 GTK Theme</a></li>
+        <li><a href="#53-kitty">5.3 Kitty</a></li>
+        <li><a href="#54-firefox">5.4 Firefox</a></li>
+      </ul>
+    </li>
+    <li><a href="#60-betterlockscreen">6.0 Betterlockscreen</a>
+      <ul>
+        <li><a href="#61-system-requirements">6.1 System Requirements</a></li>
+        <li><a href="#62-installation-of-betterockcreen">6.2 Installation of Betterockcreen</a></li>
+      </ul>
+    </li>
+    <li><a href="#70-final-recommendations">7.0 Final Recommendations</a></li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><p>This brief article looks at installing i3 on Fedora and some basic theming/ricing to improve on Fedora&rsquo;s pretty bare bones look (see the image below)!!  To get started we firstly need to install i3.</p>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="https://i.imgur.com/F7mYd0b.png#center"
+        data-srcset="https://i.imgur.com/F7mYd0b.png#center, https://i.imgur.com/F7mYd0b.png#center 1.5x, https://i.imgur.com/F7mYd0b.png#center 2x"
+        data-sizes="auto"
+        alt="https://i.imgur.com/F7mYd0b.png#center"
+        title="i3-fedora" /></p>
+<hr>
+<h2 id="10-installing-i3-on-fedora">1.0 Installing i3 on Fedora</h2>
+<p>The download for Fedora&rsquo;s i3 spin can be found on their &ldquo;spins&rdquo; page: <a href="https://fedoraproject.org/spins/i3/download" target="_blank" rel="noopener noreffer">https://fedoraproject.org/spins/i3/download</a>
+ .</p>
+<p>To install Fedora i3 you will need to transfer the downloaded file to a bootable medium, which is usually an USB stick.</p>
+<ul>
+<li>
+<p>Once the bootable medium is on your usb stick, insert the stick into the computer and then restart your computer.  Usually when you restart your computer it will boot into your current operating system, e.g. Windows.  However, before this happens you should see your BIOS loading screen&hellip; there will be a key to press which will allow your computer to boot on your USB.  For me the key is F12 which I press repeatedly on restarting the computer.  For others the key might be Escape, F1, F2, F8, F10, F11, or Delete.  The key for your computer will either be in your documentation or it will usually be briefly shown on the screen during the boot procedure.</p>
+</li>
+<li>
+<p>With i3 loaded from your USB you will need to press <code>Meta+Enter</code> to open a terminal.</p>
+<div class="details admonition tip open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-lightbulb fa-fw" aria-hidden="true"></i>Tip<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content"><pre><code>'Meta' is the Windows key on your keyboard
+</code></pre>
+</div>
+        </div>
+    </div>
+</li>
+<li>
+<p>There should be a message in your newly opened terminal on how to start the i3 installation process.</p>
+</li>
+</ul>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="https://i.imgur.com/yhbaETU.png#center"
+        data-srcset="https://i.imgur.com/yhbaETU.png#center, https://i.imgur.com/yhbaETU.png#center 1.5x, https://i.imgur.com/yhbaETU.png#center 2x"
+        data-sizes="auto"
+        alt="https://i.imgur.com/yhbaETU.png#center"
+        title="i3-installation-prompt" /></p>
+<p>The installer used by Fedora is <strong>Ananconda</strong> which is very user friendly.  The image below shows the first step in the installation process.</p>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="https://i.imgur.com/dp28dCB.png#center"
+        data-srcset="https://i.imgur.com/dp28dCB.png#center, https://i.imgur.com/dp28dCB.png#center 1.5x, https://i.imgur.com/dp28dCB.png#center 2x"
+        data-sizes="auto"
+        alt="https://i.imgur.com/dp28dCB.png#center"
+        title="anaconda-installer" /></p>
+<p>Every persons installation is going to be slightly different and there are loads of guides out there on installing Fedora, so we won&rsquo;t go through all the installation steps.</p>
+<p>Once you have i3 installed, restart your computer and when prompted accept the two i3 defaults (see below).  Don&rsquo;t worry, we will be changing these defaults shortly.</p>
+<ul>
+<li>
+<p>Accepting the default below will install a default <strong>configuration file</strong> which we will soon be changing.</p>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="https://i.imgur.com/lKGb6fP.png#center"
+        data-srcset="https://i.imgur.com/lKGb6fP.png#center, https://i.imgur.com/lKGb6fP.png#center 1.5x, https://i.imgur.com/lKGb6fP.png#center 2x"
+        data-sizes="auto"
+        alt="https://i.imgur.com/lKGb6fP.png#center"
+        title="i3-config-file" /></p>
+</li>
+<li>
+<p>In i3 the <strong>$mod key</strong> is extremely important since it allows you to navigate around the windows manager.  For example, you will use it to move to different workspaces, change your layouts, and open new applications.  We&rsquo;ve already used it to open a terminal in i3!  We are accepting the default $mod key which is the Windows key, i.e. select the green  &lsquo;Enter&rsquo; key.</p>
+</li>
+</ul>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="https://i.imgur.com/QmoxT3F.png#center"
+        data-srcset="https://i.imgur.com/QmoxT3F.png#center, https://i.imgur.com/QmoxT3F.png#center 1.5x, https://i.imgur.com/QmoxT3F.png#center 2x"
+        data-sizes="auto"
+        alt="https://i.imgur.com/QmoxT3F.png#center"
+        title="i3-win-key" /></p>
+<h2 id="20-a-few-essential-tasks">2.0 A Few Essential Tasks</h2>
+<p>Having installed i3 there are a few things you may want to do before we get into the theming your i3:</p>
+<h3 id="21-update-the-system">2.1 Update the system</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo dnf update
+</span></span></code></pre></div><h3 id="22-changing-your-hostname">2.2 Changing your hostname</h3>
+<p>In your terminal the hostname is given as &lsquo;@fedora&rsquo;.  If you want to change this to a different hostname then in your terminal&hellip;</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo hostnamectl set-hostname <span class="s2">&#34;New_Custom_Name&#34;</span>
+</span></span></code></pre></div><p>Replace &ldquo;New_Custom_Name&rdquo; with your choice of hostname.  This can be ignored if you&rsquo;re happy with the given hostname.</p>
+<h3 id="23-install-git">2.3 Install git</h3>
+<p>We will need this to get started with the theming.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo dnf install git
+</span></span></code></pre></div><h2 id="30-basic-i3-keyboard-shortcuts">3.0 Basic i3 Keyboard Shortcuts</h2>
+<p>All the shortcuts can be found in the i3 configuration file: ~/.config/i3/config .  However, some of the main ones are:</p>
+<div class="details admonition tip open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-lightbulb fa-fw" aria-hidden="true"></i>Useful Shortcuts<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content"><ul>
+<li>start a terminal (kitty):<br>
+<strong>$mod+Return</strong></li>
+<li>start thunar:<br>
+<strong>$mod+n</strong></li>
+<li>start firefox:<br>
+<strong>$mod+w</strong></li>
+<li>start rofi:<br>
+<strong>$mod+d</strong></li>
+<li>move between workspaces:<br>
+a) workspace next:<br>
+<strong>$mod+Tab</strong><br>
+b) workspace prev:<br>
+<strong>$mod+Shift+Tab</strong>  \</li>
+<li>Exit i3:<br>
+<strong>$mod+Shift+e</strong></li>
+</ul>
+</div>
+        </div>
+    </div>
+<h2 id="40-installing-alternative-configuration-files">4.0 Installing alternative configuration files</h2>
+<p>In this section we will be installing, using the terminal, the i3 configuration files from my <a href="https://gitlab.com/dajhub/i3-dotfiles" target="_blank" rel="noopener noreffer">GitLab</a>
+ account.  Please note that the source for my i3 configuration file comes from a modified version of the EndeavourOS <a href="https://github.com/endeavouros-team/endeavouros-i3wm-setup" target="_blank" rel="noopener noreffer">i3 theming</a>
+; they come with some great settings, which I&rsquo;ve basically tweaked to my own preferences.</p>
+<ul>
+<li>
+<p>The first step is to clone my GitLab repository:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git clone https://gitlab.com/dajhub/i3-dotfiles.git
+</span></span></code></pre></div></li>
+<li>
+<p>Copy the following folders/files which have been downloaded from GitLab and place them in their correct locations.  Note that the first command will replace the original i3 configuration file, so you may want to create a copy of the file first, before going through the commands below.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">cp -r ~/i3-dotfiles/.config/i3/ ~/.config/
+</span></span><span class="line"><span class="cl">cp -r ~/i3-dotfiles/.fonts/ ~/
+</span></span><span class="line"><span class="cl">cp -r ~/i3-dotfiles/.icons/ ~/
+</span></span></code></pre></div></li>
+<li>
+<p>Additional applications which are required or useful that need to be installed:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo dnf install rofi i3blocks picom kitty nitrogen lxappearance
+</span></span></code></pre></div><p><strong>Rofi</strong> is a window switcher, application launcher and a replacement for the default dmenu which comes with i3. <strong>Picom</strong> is a compositor for Xorg and can, for example, allow drop shadows and transparency. <strong>i3blocks</strong> is a status bar replacement for the i3bar. <strong>Kitty</strong> is my preferred terminal but you can obviously replace this with alternatives, e.g. alacritty. <strong>Nitrogen</strong> is a background browser and setter for X Window.  <strong>Lxappearance</strong> is actually part of the LXDE project but is a theme switcher for GTK+.</p>
+</li>
+</ul>
+<p>For all the changes to take effect it is easiest to exit and restart i3.</p>
+<div class="details admonition tip open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-lightbulb fa-fw" aria-hidden="true"></i>Tip<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">mod + shift + e <br>
+and then click <strong>yes</strong> to exit</div>
+        </div>
+    </div>
+<p>When you are logged back in the window manager, i3, should now looks as follows:</p>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="https://i.imgur.com/7rucu4g.png#center"
+        data-srcset="https://i.imgur.com/7rucu4g.png#center, https://i.imgur.com/7rucu4g.png#center 1.5x, https://i.imgur.com/7rucu4g.png#center 2x"
+        data-sizes="auto"
+        alt="https://i.imgur.com/7rucu4g.png#center"
+        title="i3-fedora" /></p>
+<p>Notice that the <strong>i3bar</strong> has now been replaced with the <strong>i3blocks</strong> bar.  Next we need to change the background wallpaper and install the theme.</p>
+<h2 id="50-themingricing-i3">5.0 Theming/Ricing i3</h2>
+<h3 id="51-background-wallpaper">5.1 Background Wallpaper</h3>
+<p>To change the wallpaper we will be using <strong>nitrogen</strong>.</p>
+<ul>
+<li><strong>meta + d</strong> to load rofi and then type in nitrogen, which is the application used to set the wallpaper.</li>
+<li>In nitrogen, add the wallpaper by selecting <strong><em>&lsquo;configuration&rsquo;</em></strong> and then adding the wallpaper which can be found in ~/.config/i3/wallpapers. Select the wallpaper and then click &lsquo;apply&rsquo;.</li>
+</ul>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="https://i.imgur.com/UP1KJQI.png#center"
+        data-srcset="https://i.imgur.com/UP1KJQI.png#center, https://i.imgur.com/UP1KJQI.png#center 1.5x, https://i.imgur.com/UP1KJQI.png#center 2x"
+        data-sizes="auto"
+        alt="https://i.imgur.com/UP1KJQI.png#center"
+        title="i3-fedora-wallpaper" /></p>
+<h3 id="52-gtk-theme">5.2 GTK Theme</h3>
+<p>The themes which I have used is <a href="https://github.com/Everblush" target="_blank" rel="noopener noreffer">Everblush</a>
+.  I have installed the theme from their GitHub page.  The steps to install the theme on Fedora (via terminal) are:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo dnf install nodejs-npm make
+</span></span><span class="line"><span class="cl">git clone https://github.com/Everblush/gtk
+</span></span><span class="line"><span class="cl"><span class="nb">cd</span> gtk
+</span></span><span class="line"><span class="cl">sudo npm install -g scss
+</span></span><span class="line"><span class="cl">sudo make install
+</span></span></code></pre></div><p><br>
+Having installed Everblush:</p>
+<ul>
+<li>Load <strong>lxappearance</strong>  and then select &ldquo;Everblush&rdquo;.<br>
+<div class="details admonition tip open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-lightbulb fa-fw" aria-hidden="true"></i>Tip<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">mod +d <br>
+to load rofi
+and then type in <strong>lxappearance</strong></div>
+        </div>
+    </div></li>
+</ul>
+<p>Still within <strong>lxappeance</strong> you can select the <strong>&lsquo;Icon Theme&rsquo;</strong>  <em>Papirus-Dark</em>, and under <strong>&lsquo;Mouse Cursor&rsquo;</strong>  the <em>Vimix Cursors</em>.  The result for Thunar file manager should look something like the following:</p>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="https://i.imgur.com/Vr45jNH.png#center"
+        data-srcset="https://i.imgur.com/Vr45jNH.png#center, https://i.imgur.com/Vr45jNH.png#center 1.5x, https://i.imgur.com/Vr45jNH.png#center 2x"
+        data-sizes="auto"
+        alt="https://i.imgur.com/Vr45jNH.png#center"
+        title="i3-fedora-wallpaper" /></p>
+<h3 id="53-kitty">5.3 Kitty</h3>
+<p>If you are using the Kitty terminal then you will need to theme it in order to pick up the Everblush theme.</p>
+<ul>
+<li>
+<p>Load the Everblush terminal configuration files from <a href="https://github.com/Everblush/terminal-emulators/tree/main/src/kitty" target="_blank" rel="noopener noreffer">github</a>
+.</p>
+</li>
+<li>
+<p>We need to follow the instruction on the site, &ldquo;<em>Copy the contents of the Everblush.conf file into your kitty config (usually present at ~/.config/kitty/kitty.conf) and save the file.</em>&rdquo; .  To do this via the terminal:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="nb">cd</span> ~/.config/kitty
+</span></span><span class="line"><span class="cl">touch kitty.conf
+</span></span><span class="line"><span class="cl">nano kitty.conf
+</span></span></code></pre></div></li>
+</ul>
+<p>The second command (&rsquo;touch) will create an empty file called <em>kitty.conf</em> and the last command (&rsquo;nano&rsquo;) will open the newly created file in nano, which is an easy to use command line text editor.  If you are, for example, using &lsquo;vim&rsquo; then just replace nano with vim.</p>
+<p>Having opened the new blank document, copy the contents of the Everblush kitty theme.  This can be found on the Everblush <a href="https://github.com/Everblush/terminal-emulators/tree/main/src/kitty" target="_blank" rel="noopener noreffer">github</a>
+ site at the top (i.e. open the <strong>Everblush.conf</strong> file). Copy the content across into your blank kitty.conf file.</p>
+<p>To save your new file in nano press <code>Ctrl + o</code> and then <code>Ctrl + x</code> to exit nano.  The image below shows Kitty with the Everblush theme.  For mine, I am showing <strong>neofetch</strong> for some contrast! If you want neofetch and don&rsquo;t already have it installed&hellip;. <code>sudo dnf install neofetch</code>.  To run it, simply type <code>neofetch</code>.</p>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="https://i.imgur.com/zwpUCk3.png#center"
+        data-srcset="https://i.imgur.com/zwpUCk3.png#center, https://i.imgur.com/zwpUCk3.png#center 1.5x, https://i.imgur.com/zwpUCk3.png#center 2x"
+        data-sizes="auto"
+        alt="https://i.imgur.com/zwpUCk3.png#center"
+        title="kitty-everblush" /></p>
+<div class="details admonition tip open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-lightbulb fa-fw" aria-hidden="true"></i>Tip<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content"><p>At the moment when you right click in the file manager, Thunar, and select <strong>&lsquo;Open Terminal Here&quot;</strong>, the terminal which is opened will be the xfce4-terminal.  To change this so that Kitty opens:</p>
+<ul>
+<li>In Thunar, go to &lsquo;Edit&rsquo; and select &ldquo;Configure custom actions&hellip;&rdquo;.</li>
+<li>Select the first entry in the dialogue box which should read &ldquo;Open Terminal Here&rdquo; and click the cog on the right-hand side, which will allow you to edit you choice of terminal.</li>
+<li>Change the <code>Command</code> to &lsquo;kitty&rsquo;.</li>
+</ul>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="https://i.imgur.com/jP5Gskt.png#center"
+        data-srcset="https://i.imgur.com/jP5Gskt.png#center, https://i.imgur.com/jP5Gskt.png#center 1.5x, https://i.imgur.com/jP5Gskt.png#center 2x"
+        data-sizes="auto"
+        alt="https://i.imgur.com/jP5Gskt.png#center"
+        title="thunar_kitty" /></p>
+<ul>
+<li>Close and reopen Thunar.  Right clicking in the file manager should now open Kitty instead of the xfce4-terminal.</li>
+</ul>
+</div>
+        </div>
+    </div>
+<h3 id="54-firefox">5.4 Firefox</h3>
+<p>If you want the Everblush theming in Firefox, <a href="https://github.com/AlphaTechnolog/everblush-firefox" target="_blank" rel="noopener noreffer">AlphaTechnolog</a>
+ have created a good Everblush theme.</p>
+<p>To install the theme:</p>
+<ul>
+<li>Install the Firefox color <a href="https://color.firefox.com" target="_blank" rel="noopener noreffer">extension</a>
+.</li>
+<li>On the AlphaTechnolog <a href="https://github.com/AlphaTechnolog/everblush-firefox" target="_blank" rel="noopener noreffer">GitHub</a>
+ site/page click the &rsquo;link&rsquo; at the bottom of the page.  The result&hellip;</li>
+</ul>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="https://i.imgur.com/gY33BEK.png#center"
+        data-srcset="https://i.imgur.com/gY33BEK.png#center, https://i.imgur.com/gY33BEK.png#center 1.5x, https://i.imgur.com/gY33BEK.png#center 2x"
+        data-sizes="auto"
+        alt="https://i.imgur.com/gY33BEK.png#center"
+        title="Firefox - Everblush" /></p>
+<h2 id="60-betterlockscreen">6.0 Betterlockscreen</h2>
+<p>Betterlockscreen is a minimal lock screen.  The installation instructions are on their <a href="https://github.com/betterlockscreen/betterlockscreen" target="_blank" rel="noopener noreffer">GitHub</a>
+ site.  As stated on their site, there are a number of system requirements for betterlockscreen to work. To do this on Fedora:</p>
+<h3 id="61-system-requirements">6.1 System Requirements</h3>
+<h4 id="611-imagemagick">6.1.1 Imagemagick</h4>
+<p>Used for editing and manipulating digital images.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo dnf install imagemagick
+</span></span></code></pre></div><h4 id="612-i3lock-color">6.1.2 i3lock-color</h4>
+<p>A simple screen locker&hellip;. <a href="https://github.com/Raymo111/i3lock-color" target="_blank" rel="noopener noreffer">i3lock-color</a>
+:</p>
+<ul>
+<li>Required dependencies for i3lock-color:
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo dnf install -y autoconf automake cairo-devel fontconfig gcc libev-devel libjpeg-turbo-devel libXinerama libxkbcommon-devel libxkbcommon-x11-devel libXrandr pam-devel pkgconf xcb-util-image-devel xcb-util-xrm-devel
+</span></span></code></pre></div></li>
+<li>Building i3lock-color:
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git clone https://github.com/Raymo111/i3lock-color.git
+</span></span><span class="line"><span class="cl"><span class="nb">cd</span> i3lock-color
+</span></span><span class="line"><span class="cl">./install-i3lock-color.sh
+</span></span></code></pre></div></li>
+</ul>
+<h3 id="62-installation-of-betterockcreen">6.2 Installation of Betterockcreen</h3>
+<p>The command is an automatic install for Betterlockscreen and is a <code>user-installation</code> rather than a <code>system-installation</code>.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">wget https://raw.githubusercontent.com/betterlockscreen/betterlockscreen/main/install.sh -O - -q <span class="p">|</span> bash -s user
+</span></span></code></pre></div><h2 id="70-final-recommendations">7.0 Final Recommendations</h2>
+<ul>
+<li>If you want i3 to have <strong>spiral tiling</strong> then see this <a href="https://dajhub.co.uk/posts/14-tiling/14-tiling/" target="_blank" rel="noopener noreffer">post</a>
+ to achieve the effect.</li>
+<li>It is definately worth looking at all the available shortcuts available.  These can be found in the i3 configuration file located at  ~/.config/i3/config</li>
+<li>The display manager used by Fedora is <strong>LightDM</strong>.  The display manager is what you see when you login to i3.  You can easily replace this with an alternative like <strong>Slick Greeter</strong>.  There is a <a href="https://dajhub.co.uk/posts/11-changing-display-manager/2022-04-16-changing-display-manager/" target="_blank" rel="noopener noreffer">post</a>
+ on how to install Slick Greeter in Arch.  However, in Fedora it is much simpler and can be done with one command.
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo dnf install slick-greeter
+</span></span></code></pre></div></li>
+</ul>
+</div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>Updated on 2023-11-26</span>
+            </div></div>
+        <div class="post-info-line">
+            <div class="post-info-md"></div>
+            <div class="post-info-share">
+                <span><a href="javascript:void(0);" title="Share on Twitter" data-sharer="twitter" data-url="https://dajhub.co.uk/posts/15-fedora-i3/2023-11-26-i3-fedora-and-theming/" data-title="Ricing Fedora i3" data-hashtags="fedora,i3,window manager"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="https://dajhub.co.uk/posts/15-fedora-i3/2023-11-26-i3-fedora-and-theming/" data-hashtag="fedora"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Pocket" data-sharer="pocket" data-url="https://dajhub.co.uk/posts/15-fedora-i3/2023-11-26-i3-fedora-and-theming/"><i class="fab fa-get-pocket fa-fw" aria-hidden="true"></i></a></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"><i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/fedora/">fedora</a>,&nbsp;<a href="/tags/i3/">i3</a>,&nbsp;<a href="/tags/window-manager/">window manager</a></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/">Home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"><a href="/posts/14-tiling/14-tiling/" class="prev" rel="prev" title="i3 Window Manager - Spiral Tiling"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>i3 Window Manager - Spiral Tiling</a></div>
+</div>
+</article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.110.0">Hugo</a> | Theme - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.2.10"></i> LoveIt</a>
+                </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2020 - 2023</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank">dajhub</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Back to Top">
+                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="View Comments">
+                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
+            </a>
+        </div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/contrib/copy-tex.min.css"><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/autocomplete.js@0.38.1/dist/autocomplete.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lunr@2.3.9/lunr.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.1/lazysizes.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/sharer.js@0.5.1/sharer.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/contrib/auto-render.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/contrib/copy-tex.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/contrib/mhchem.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":50},"comment":{},"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":true,"left":"\\begin{equation}","right":"\\end{equation}"},{"display":true,"left":"\\begin{equation*}","right":"\\end{equation*}"},{"display":true,"left":"\\begin{align}","right":"\\end{align}"},{"display":true,"left":"\\begin{align*}","right":"\\end{align*}"},{"display":true,"left":"\\begin{alignat}","right":"\\end{alignat}"},{"display":true,"left":"\\begin{alignat*}","right":"\\end{alignat*}"},{"display":true,"left":"\\begin{gather}","right":"\\end{gather}"},{"display":true,"left":"\\begin{CD}","right":"\\end{CD}"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"}],"strict":false},"search":{"highlightTag":"em","maxResultLength":10,"noResultsFound":"No results found","snippetLength":30}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
+</html>
