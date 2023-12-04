@@ -1,3 +1,4 @@
+/* Code below is to allow centring */
 img[src$='#center']{
     display: block;
     margin: 0.7rem auto; /* you can replace the vertical '0.7rem' by
@@ -13,3 +14,9 @@ img[src$='#center']{
       float:right;
       margin: 0.7rem;
   }
+  
+  /*Trying to keep images the same size in a post -- experimental */
+  img{
+    max-width: 100%;
+    height: auto;
+}
