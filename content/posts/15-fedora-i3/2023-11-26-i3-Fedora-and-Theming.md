@@ -244,7 +244,7 @@ At the moment there is only one image in the folder; add more images to get the 
 
 ![betterlockscreen-image](https://i.imgur.com/3oe4cNm.png#center)
 
-For more options with betterlockscreen see their [github account examples](https://i.imgur.com/3oe4cNm.png)
+For more options with betterlockscreen see their [github account examples](https://github.com/betterlockscreen/betterlockscreen#examples)
 
 ## 7.0 Final Recommendations
 - If you want i3 to have __spiral tiling__ then see this [post](https://dajhub.co.uk/posts/14-tiling/14-tiling/) to achieve the effect.
