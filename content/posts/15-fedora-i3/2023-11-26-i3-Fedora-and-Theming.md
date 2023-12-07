@@ -135,8 +135,7 @@ Notice that the __i3bar__ has now been replaced with the __i3blocks__ bar.  Next
 ## 5.0 Theming/Ricing i3
 ### 5.1 Background Wallpaper
 To change the wallpaper we will be using __nitrogen__.
-- __meta + d__ to load rofi and then type in nitrogen, which is the application used to set the wallpaper.
-- In nitrogen, add the wallpaper by selecting __*'configuration'*__ and then adding the wallpaper which can be found in ~/.config/i3/wallpapers. Select the wallpaper and then click 'apply'.  
+- __meta + d__$mod+w__n, add the wallpaper by selecting __*'configuration'*__ and then adding the wallpaper which can be found in ~/.config/i3/wallpapers. Select the wallpaper and then click 'apply'.  
 
 ![i3-fedora-wallpaper](https://i.imgur.com/UP1KJQI.png#center)
 
@@ -213,7 +212,7 @@ Betterlockscreen is a minimal lock screen.  The installation instructions are on
 Used for editing and manipulating digital images.
 
 ```bash
-sudo dnf install imagemagick
+sudo dnf install ImageMagick
 ```
 
 #### 6.1.2 i3lock-color
@@ -229,12 +228,23 @@ A simple screen locker.... [i3lock-color](https://github.com/Raymo111/i3lock-col
     ./install-i3lock-color.sh
     ```
 
-### 6.2 Installation of Betterockcreen
+### 6.2 Installation of Betterlockscreen
 The command is an automatic install for Betterlockscreen and is a `user-installation` rather than a `system-installation`.
 
 ```bash
+sudo dnf install xset
 wget https://raw.githubusercontent.com/betterlockscreen/betterlockscreen/main/install.sh -O - -q | bash -s user
 ```
+The key combination __$mod+l__ will lock the screen with a black background.  If you want a blurred background image which randomly changes,
+
+```bash
+betterlockscreen -u ~/.config/i3/wallpapers/space-station.png
+```
+At the moment there is only one image in the folder; add more images to get the random changes.  The current effect is below:
+
+![betterlockscreen-image](https://i.imgur.com/3oe4cNm.png#center)
+
+For more options with betterlockscreen see their [github account examples](https://i.imgur.com/3oe4cNm.png)
 
 ## 7.0 Final Recommendations
 - If you want i3 to have __spiral tiling__ then see this [post](https://dajhub.co.uk/posts/14-tiling/14-tiling/) to achieve the effect.
