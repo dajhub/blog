@@ -27,7 +27,7 @@
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https:\/\/dajhub.co.uk\/posts\/15-fedora-i3\/2023-11-26-i3-fedora-and-theming\/"
-        },"genre": "posts","keywords": "fedora, i3, window manager","wordcount":  1592 ,
+        },"genre": "posts","keywords": "fedora, i3, window manager","wordcount":  1636 ,
         "url": "https:\/\/dajhub.co.uk\/posts\/15-fedora-i3\/2023-11-26-i3-fedora-and-theming\/","datePublished": "2023-11-26T08:30:00+00:00","dateModified": "2023-11-26T08:30:00+00:00","publisher": {
             "@type": "Organization",
             "name": ""},"author": {
@@ -103,7 +103,7 @@
         </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">Ricing Fedora i3</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>dajhub</a>
 </span>&nbsp;<span class="post-category">included in <a href="/categories/linux/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>LINUX</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2023-11-26">2023-11-26</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;1592 words&nbsp;
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2023-11-26">2023-11-26</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;1636 words&nbsp;
                 <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;8 minutes&nbsp;</div>
         </div><div class="details toc" id="toc-static"  data-kept="">
                 <div class="details-summary toc-title">
@@ -133,7 +133,7 @@
     <li><a href="#60-betterlockscreen">6.0 Betterlockscreen</a>
       <ul>
         <li><a href="#61-system-requirements">6.1 System Requirements</a></li>
-        <li><a href="#62-installation-of-betterockcreen">6.2 Installation of Betterockcreen</a></li>
+        <li><a href="#62-installation-of-betterlockscreen">6.2 Installation of Betterlockscreen</a></li>
       </ul>
     </li>
     <li><a href="#70-final-recommendations">7.0 Final Recommendations</a></li>
@@ -300,8 +300,7 @@ and then click <strong>yes</strong> to exit</div>
 <h3 id="51-background-wallpaper">5.1 Background Wallpaper</h3>
 <p>To change the wallpaper we will be using <strong>nitrogen</strong>.</p>
 <ul>
-<li><strong>meta + d</strong> to load rofi and then type in nitrogen, which is the application used to set the wallpaper.</li>
-<li>In nitrogen, add the wallpaper by selecting <strong><em>&lsquo;configuration&rsquo;</em></strong> and then adding the wallpaper which can be found in ~/.config/i3/wallpapers. Select the wallpaper and then click &lsquo;apply&rsquo;.</li>
+<li><strong>meta + d</strong>$mod+w__n, add the wallpaper by selecting <strong><em>&lsquo;configuration&rsquo;</em></strong> and then adding the wallpaper which can be found in ~/.config/i3/wallpapers. Select the wallpaper and then click &lsquo;apply&rsquo;.</li>
 </ul>
 <p><img
         class="lazyload"
@@ -418,7 +417,7 @@ and then type in <strong>lxappearance</strong></div>
 <h3 id="61-system-requirements">6.1 System Requirements</h3>
 <h4 id="611-imagemagick">6.1.1 Imagemagick</h4>
 <p>Used for editing and manipulating digital images.</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo dnf install imagemagick
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo dnf install ImageMagick
 </span></span></code></pre></div><h4 id="612-i3lock-color">6.1.2 i3lock-color</h4>
 <p>A simple screen locker&hellip;. <a href="https://github.com/Raymo111/i3lock-color" target="_blank" rel="noopener noreffer">i3lock-color</a>
 :</p>
@@ -432,10 +431,24 @@ and then type in <strong>lxappearance</strong></div>
 </span></span><span class="line"><span class="cl">./install-i3lock-color.sh
 </span></span></code></pre></div></li>
 </ul>
-<h3 id="62-installation-of-betterockcreen">6.2 Installation of Betterockcreen</h3>
+<h3 id="62-installation-of-betterlockscreen">6.2 Installation of Betterlockscreen</h3>
 <p>The command is an automatic install for Betterlockscreen and is a <code>user-installation</code> rather than a <code>system-installation</code>.</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">wget https://raw.githubusercontent.com/betterlockscreen/betterlockscreen/main/install.sh -O - -q <span class="p">|</span> bash -s user
-</span></span></code></pre></div><h2 id="70-final-recommendations">7.0 Final Recommendations</h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo dnf install xset
+</span></span><span class="line"><span class="cl">wget https://raw.githubusercontent.com/betterlockscreen/betterlockscreen/main/install.sh -O - -q <span class="p">|</span> bash -s user
+</span></span></code></pre></div><p>The key combination <strong>$mod+l</strong> will lock the screen with a black background.  If you want a blurred background image which randomly changes,</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">betterlockscreen -u ~/.config/i3/wallpapers/space-station.png
+</span></span></code></pre></div><p>At the moment there is only one image in the folder; add more images to get the random changes.  The current effect is below:</p>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="https://i.imgur.com/3oe4cNm.png#center"
+        data-srcset="https://i.imgur.com/3oe4cNm.png#center, https://i.imgur.com/3oe4cNm.png#center 1.5x, https://i.imgur.com/3oe4cNm.png#center 2x"
+        data-sizes="auto"
+        alt="https://i.imgur.com/3oe4cNm.png#center"
+        title="betterlockscreen-image" /></p>
+<p>For more options with betterlockscreen see their <a href="https://i.imgur.com/3oe4cNm.png" target="_blank" rel="noopener noreffer">github account examples</a>
+</p>
+<h2 id="70-final-recommendations">7.0 Final Recommendations</h2>
 <ul>
 <li>If you want i3 to have <strong>spiral tiling</strong> then see this <a href="https://dajhub.co.uk/posts/14-tiling/14-tiling/" target="_blank" rel="noopener noreffer">post</a>
  to achieve the effect.</li>
